@@ -23,6 +23,5 @@ Growth rate, η and B, and the DRC of every parameter that controls growth somew
 
 <img alt="kinetics.png" src="Figures/kinetics.png" width="860" />
 
-(a) W at 200 Å and the growth rate against temperature; (b) W over temperature and film thickness.
 
-<img alt="roughness.png" src="Figures/roughness.png" width="860" />
+
