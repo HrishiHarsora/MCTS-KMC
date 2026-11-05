@@ -56,4 +56,4 @@ KMC is stochastic ,i.e., two films grown with the same parameters at the same te
 
 <img width="3415" height="1358" alt="noise_flat_region" src="noise_flat_region.png" />
 
-The same check for every temperature at every stage, the running mean of each ensemble against its ±1 SEM band, can be found [here](https://hrishiharsora.github.io/MCTS-KMC/).
+The same check for every temperature at every stage, the running mean of each ensemble against its ±1 SEM band, can be found [here](https://hrishiharsora.github.io/MCTS-KMC-results/).
