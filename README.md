@@ -27,9 +27,8 @@ As a result, DFT calculations are limited to small unit cells of a few hundred a
 ### Kinetic Monte Carlo (KMC)
 KMC is a Monte Carlo technique which can be used to evolve a system in real time. 
 
-<img width="4450" height="1395" alt="MD_DFT_KMC" src="https://github.com/user-attachments/assets/46f82dab-4911-4d0b-b1d4-84035f47c2b6" />
 
-Microscale approaches, due to their small timesteps, spend most of their computational effort resolving atomic vibrations within a single local basin of the potential energy landscape (PES), during which the configuration of the system does not meaningfully change (Figure - b). In the context of film growth, this level of accuracy is unnecessarily expensive. KMC circumvents this and allows actual film growth by evolving the system through discrete "jumps" between distinct basins of the PES (Figure - c), so that only those transitions which actually alter the configuration are simulated. This is precisely the origin of the speedup: rather than deriving the accessible transitions on the fly from an interatomic or pseudopotential, KMC works from a predefined catalogue of events that the system is permitted to undergo, and the evolution of the system is expressed purely as a function of these events.
+Microscale approaches, due to their small timesteps, spend most of their computational effort resolving atomic vibrations within a single local basin of the potential energy landscape (PES), during which the configuration of the system does not meaningfully change. In the context of film growth, this level of accuracy is unnecessarily expensive. KMC circumvents this and allows actual film growth by evolving the system through discrete "jumps" between distinct basins of the PES, so that only those transitions which actually alter the configuration are simulated. This is precisely the origin of the speedup: rather than deriving the accessible transitions on the fly from an interatomic or pseudopotential, KMC works from a predefined catalogue of events that the system is permitted to undergo, and the evolution of the system is expressed purely as a function of these events.
 
 
 ## Optimizer - MCTS
