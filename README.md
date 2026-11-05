@@ -1,6 +1,6 @@
 # Atomistic Insights into MOCVD Growth of GaAs from a closed Loop Autonomous system combining Directed Reinforcement Learning and Kinetic Monte Carlo Simulations
 
-<img width="4407" height="2524" alt="Picture1" src="https://github.com/user-attachments/assets/9da63d58-3da8-4342-8101-c6ce883a7074" />
+<img alt="Picture1" src="assets/Picture1.png" width="100%" />
 
 Traditional approaches to model thin film deposition processes rely on frameworks at the macroscale (Computational Fluid Dynamics (CFD)) or microscale (Molecular Dynamics (MD), 
 Density Functional Theory (DFT)) which are limited in their applicability:
@@ -44,7 +44,7 @@ Film deposition, as modelled by the KMC forward mode, depends on the reactions c
 
 Altogether, there are 54 parameters which govern the rate of the 20 reactions considered in the KMC model here. Rather than computing these parameters and predicting the growth rate, we treat the parameter set as an unknown variable. Then, we search for a set of values that reproduces the experimental growth rate across the temperature range. Hence, the problem boils down to a search in a high dimensional parameter space for an optimal set. For this, we utilize the Monte Carlo Tree Search (MCTS) algorithm which is an extremely efficient at searching high dimensional spaces. It does so by growing a search tree in the space through 4 steps illustrated below:
 
-<img width="3546" height="2234" alt="Picture1" src="https://github.com/user-attachments/assets/dcebfce2-8f06-44bb-b6e6-dcd95eec9b0b" />
+<img alt="MCTS steps" src="assets/Figure-5.png" width="100%" />
 
 1. Selection - Choosing a parent node to spawn children from
 2. Expansion - Spawning a child node by biasing the parameters of its parent
