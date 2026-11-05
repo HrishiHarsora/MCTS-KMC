@@ -47,7 +47,6 @@ Altogether there are 54 parameters which govern the rates of the 20 surface reac
 
 The experimental GR peaks at 1125K whilst the KMC model, with the default parameter set, predicts ~0 growth at all temperatures. Hence, GR at 1125 K is fitted first. Next, the fit is extended outward one regime at a time. The low-temperature arm (LT: 900, 925, 950, 975, 1000 K) is added next, giving a six-point target; then the mid-range (MT: 1025, 1050, 1075, 1100, 1125, 1150 K) for eleven points; and finally the high-temperature tail (HT: 1175, 1200, 1225, 1230 K), which closes the full fifteen-point curve.
 
-<img width="4374" height="2493" alt="Picture1" src="https://github.com/user-attachments/assets/55e615ca-2fa8-4692-b108-896c7b4c17bf" />
 
 ### Considerations During Optimization 
 
