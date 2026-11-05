@@ -1,0 +1,29 @@
+{
+  "description": "The six-temperature ladder of the LT+1125 stage, 10 M event backstop.",
+  "parameters": "params/stage01_1125K_winner.json",
+  "lattice": "lattice/Lattice_10nm_h232.xyz",
+  "temperatures": [
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1125
+  ],
+  "replicates": 240,
+  "seed_base": 93000000,
+  "max_events": 10000000,
+  "checkpoint_events": 20000,
+  "window_A": [
+    50.0,
+    200.0
+  ],
+  "stall": {
+    "idle_factor": 2.0,
+    "min_events": 500000,
+    "rel_tol": 0.005,
+    "abs_tol_A": 0.01
+  },
+  "workers": 48,
+  "out": "out/ladder_six_temperatures.csv"
+}

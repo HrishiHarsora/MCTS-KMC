@@ -1,0 +1,21 @@
+# 1125 K SENSITIVITY SCREEN about the catalog values. Read by run_kmc.py; run_sens.sh passes
+# each arm's parameter file (sens_params/, all 54 values) with --params.
+#
+# A FIXED EVENT BUDGET, not the growth-rate window: at the catalog values the film does not
+# grow, so there is no rate to read through 50-200 A. reduce_sens.py reads the mean film height
+# at 100 k, 250 k, 500 k and 1 M events from the checkpoint trace. The window is still set so
+# that an arm whose film does grow stops at 200 A, well below the 231.8 A lattice top.
+
+[run]
+temperatures = [1125]
+output_csv   = "results/sens.csv"          # run_sens.sh sets one per arm
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 0.0              # OFF: every trajectory runs the whole budget
+max_iterations           = 1000000
+reward_checkpoint_events = 10000            # 100 checkpoints; every budget read is a checkpoint
+n_replicates             = 100
+seed_base                = 21250000         # the SAME for every arm: common random numbers
+n_workers                = 48

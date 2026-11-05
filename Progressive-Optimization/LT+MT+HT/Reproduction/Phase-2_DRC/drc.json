@@ -1,0 +1,33 @@
+{
+  "description": "LT+MT+HT DRC at the ladder's R10 0.45 set (node 52 with Ea_E32 +0.45 e-folds at 1225 K = +551.25 K; the smallest step at which films grow at all 15 temperatures: x Lin 1.14 .98 .89 .91 .96 1.00 1.07 1.10 1.12 1.12 1.14 1.17 1.23 .85 .73). Same design as the node-52 DRC: 20 directions, +-0.3 e-folds, 144 CRN films, 900-1230 K. It gives the final search its lever effects at every temperature (WHY.txt).",
+  "root_parameters": "root_R10_045.json",
+  "root_md5": "baf2b399474cb46d04a6665784a7e6b3",
+  "delta_efolds": 0.3,
+  "temperatures": [
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1025,
+    1050,
+    1075,
+    1100,
+    1125,
+    1150,
+    1175,
+    1200,
+    1225,
+    1230
+  ],
+  "replicates": 144,
+  "seed_base": 88250000,
+  "priority": [
+    "stick_M_step",
+    "E32",
+    "stick_M_terr",
+    "stick_A_step",
+    "stick_A_terr"
+  ],
+  "out_dir": "drc_params"
+}

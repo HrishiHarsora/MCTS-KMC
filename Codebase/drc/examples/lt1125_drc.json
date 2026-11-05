@@ -1,0 +1,76 @@
+{
+  "description": "The published LT+1125 screen about the Stage-1 (1125 K) fitted set, 0.9 e-folds, six temperatures, 240 replicates, common random numbers within each temperature. In this engine it has 17 directions (13 reactions and 4 sticking coefficients, terrace and step for AsH and MMGa): R3 covers engine IDs 3-5, each incorporation reaction R10-R15 is one direction (IDs 14, 17, 26, 20, 29, 23), and the surface-enhancement pair is gone.",
+  "root_parameters": "params/stage01_1125K_winner.json",
+  "root_md5": "3dcb30fe4979404e15641b66e2bfee27",
+  "delta_efolds": 0.9,
+  "reactions": [
+    1,
+    2,
+    3,
+    12,
+    13,
+    14,
+    17,
+    20,
+    23,
+    26,
+    29,
+    32,
+    33
+  ],
+  "extra_directions": [
+    [
+      "stick_A_terr",
+      "S0_A_terrace"
+    ],
+    [
+      "stick_A_step",
+      "S0_A_step"
+    ],
+    [
+      "stick_M_terr",
+      "S0_M_terrace"
+    ],
+    [
+      "stick_M_step",
+      "S0_M_step"
+    ]
+  ],
+  "bounds": {
+    "S0_A_terrace": [
+      0.0,
+      1.0
+    ],
+    "S0_A_step": [
+      0.0,
+      1.0
+    ],
+    "S0_M_terrace": [
+      0.0,
+      1.0
+    ],
+    "S0_M_step": [
+      0.0,
+      1.0
+    ]
+  },
+  "temperatures": [
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1125
+  ],
+  "replicates": 240,
+  "seed_base": 93000000,
+  "priority": [
+    "stick_M_terr",
+    "stick_M_step",
+    "stick_A_terr",
+    "stick_A_step",
+    "E32",
+    "E33"
+  ],
+  "out_dir": "drc_params"
+}

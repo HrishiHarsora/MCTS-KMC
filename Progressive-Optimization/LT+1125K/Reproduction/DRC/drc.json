@@ -1,0 +1,11 @@
+{
+  "description": "LT+1125K DRC about the 1125 K fit (MCTS rerun, node 3: 1.1696 um/min = 1.0026 x Lin at 1125 K): all 20 directions (16 reactions + 4 sticking coefficients), +-0.3 e-folds as in the 1125 K Phase 2 DRC, 144 CRN-paired replicates, at 900, 925, 950, 975, 1000 and 1125 K. The baseline arm is the fit's own growth rate at each temperature.",
+  "root_parameters": "root_fit_1125K.json",
+  "root_md5": "7fa2d366c3b4c0d5d221648a50133e0e",
+  "delta_efolds": 0.3,
+  "temperatures": [900, 925, 950, 975, 1000, 1125],
+  "replicates": 144,
+  "seed_base": 61250000,
+  "priority": ["stick_M_step", "E32", "stick_M_terr", "stick_A_step", "stick_A_terr"],
+  "out_dir": "drc_params"
+}

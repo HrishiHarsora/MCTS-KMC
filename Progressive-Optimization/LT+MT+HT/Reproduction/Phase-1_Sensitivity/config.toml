@@ -1,0 +1,18 @@
+# LT+MT+HT HEIGHT SENSITIVITY at 1225 and 1230 K about the LT+MT fit (node 52, root_fit_LTMT.json).
+# Forked from 1125K Phase 1 SENSITIVITY (the screen used when the catalog values did not grow at 1125 K): there is
+# no growth rate where the film does not grow, so this reads the MEAN FILM HEIGHT at fixed event budgets
+# (100 k / 250 k / 500 k / 1 M), the stall rule OFF so every film runs the whole budget. Read by run_kmc.py.
+
+[run]
+temperatures = [1225, 1230]          # run_sens.sh passes one per element (--temps)
+output_csv   = "results/sens.csv"          # run_sens.sh sets one per arm
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 0.0              # OFF: every trajectory runs the whole budget
+max_iterations           = 1000000
+reward_checkpoint_events = 10000            # 100 checkpoints; every budget read is a checkpoint
+n_replicates             = 100
+seed_base                = 86250000         # run_sens.sh: 1225 K 86250000, 1230 K 86260000 -- the SAME for every arm at a T (CRN)
+n_workers                = 48

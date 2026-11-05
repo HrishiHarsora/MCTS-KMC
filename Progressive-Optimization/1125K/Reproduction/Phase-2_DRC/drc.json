@@ -1,0 +1,11 @@
+{
+  "description": "1125 K Phase 2 DRC about the inflation root (lambda 1.0): all 20 directions (16 reactions + 4 sticking coefficients), +-0.3 e-folds, 144 CRN-paired replicates. 0.3 not 0.9: at lambda 1 the growth rate roughly triples per e-fold and lambda 0.5 no longer reaches 200 A, so a 0.9 step would leave the growing regime.",
+  "root_parameters": "root_lambda_1.00.json",
+  "root_md5": "19853d5876f7634d62f90705ee42d8a4",
+  "delta_efolds": 0.3,
+  "temperatures": [1125],
+  "replicates": 144,
+  "seed_base": 41250000,
+  "priority": ["E32", "stick_A_step", "stick_A_terr", "stick_M_terr", "stick_M_step"],
+  "out_dir": "drc_params"
+}

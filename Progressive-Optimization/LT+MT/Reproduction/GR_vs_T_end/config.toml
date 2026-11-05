@@ -1,0 +1,25 @@
+# LT+MT+HT DRC about the LT+MT fit (MCTS node 52, root_fit_LTMT.json). Read by run_kmc.py;
+# run_drc.sh passes each arm's parameter file (drc_params/, all 54 values), the temperature and its seed base
+# from drc_tasklist.txt, and --nrep 144. Same settings as the LT+MT DRCs except the temperatures and seed base.
+#
+# THE GROWTH RATE: the mean film height's rate through 50-200 A; a trajectory stops at the first
+# checkpoint at or above 200 A. A film that stops growing ends by the stall rule and has no rate.
+# Node 52 grew every film through the window at 900-1150 K in the MCTS. At 1175-1230 K it has not been
+# measured (the LT+1125K fit grew no film there): the baseline elements 0-14 measure it first.
+
+[run]
+temperatures = [900, 925, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1200, 1225, 1230]
+output_csv   = "results/drc.csv"           # run_drc.sh sets one per element
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 2.0
+stall_min_events         = 500000
+stall_rel_tol            = 0.005
+stall_abs_tol_A          = 0.01
+max_iterations           = 10000000
+reward_checkpoint_events = 20000
+n_replicates             = 144              # fixed: every arm pairs with the baseline replicate by replicate
+seed_base                = 85250000         # drc_tasklist.txt passes each temperature its own base (CRN across arms)
+n_workers                = 48

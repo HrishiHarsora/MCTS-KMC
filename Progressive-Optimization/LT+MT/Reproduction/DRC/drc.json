@@ -1,0 +1,29 @@
+{
+  "description": "LT+MT DRC about the LT+1125K fit (MCTS node 35: 900-1125 K at +12.6 / -2.0 / -10.1 / -6.7 / -1.0 / +0.3 % of Lin): all 20 directions (16 reactions + 4 sticking coefficients), +-0.3 e-folds as in the earlier DRCs, 144 CRN-paired replicates, at the LT temperatures 900-1000 K and the MT temperatures 1025-1150 K (the paper text's MT range; 1150 can be dropped from the search later). The baseline arm is the fit's own growth rate at each temperature.",
+  "root_parameters": "root_fit_LT1125K.json",
+  "root_md5": "5162539df6675652c753ebea1233061b",
+  "delta_efolds": 0.3,
+  "temperatures": [
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1025,
+    1050,
+    1075,
+    1100,
+    1125,
+    1150
+  ],
+  "replicates": 144,
+  "seed_base": 81250000,
+  "priority": [
+    "stick_M_step",
+    "E32",
+    "stick_M_terr",
+    "stick_A_step",
+    "stick_A_terr"
+  ],
+  "out_dir": "drc_params"
+}

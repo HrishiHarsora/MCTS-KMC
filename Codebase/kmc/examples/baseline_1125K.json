@@ -1,0 +1,24 @@
+{
+  "description": "One temperature at the Stage-1 (1125 K) fitted parameter set.",
+  "parameters": "params/stage01_1125K_winner.json",
+  "lattice": "lattice/Lattice_10nm_h232.xyz",
+  "temperatures": [
+    1125
+  ],
+  "replicates": 96,
+  "seed_base": 93000000,
+  "max_events": 10000000,
+  "checkpoint_events": 20000,
+  "window_A": [
+    50.0,
+    200.0
+  ],
+  "stall": {
+    "idle_factor": 2.0,
+    "min_events": 500000,
+    "rel_tol": 0.005,
+    "abs_tol_A": 0.01
+  },
+  "workers": 8,
+  "out": "out/baseline_1125K.csv"
+}

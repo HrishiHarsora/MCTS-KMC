@@ -1,0 +1,811 @@
+param,source,T_K,value,sem,snr,n_pairs,method
+A_E1,R4 AsH desorption,900,-0.00015,0.00015,1.0,144,two-sided
+A_E1,R4 AsH desorption,925,-0.00009,0.00009,1.0,144,two-sided
+A_E1,R4 AsH desorption,950,-0.00003,0.00003,1.0,144,two-sided
+A_E1,R4 AsH desorption,975,-0.00047,0.00038,1.2,144,two-sided
+A_E1,R4 AsH desorption,1000,-0.00048,0.00067,0.7,144,two-sided
+A_E1,R4 AsH desorption,1025,-0.00025,0.00033,0.8,144,two-sided
+A_E1,R4 AsH desorption,1050,-0.00076,0.00052,1.5,144,two-sided
+A_E1,R4 AsH desorption,1075,-0.00073,0.00087,0.8,144,two-sided
+A_E1,R4 AsH desorption,1100,0.00153,0.00095,1.6,144,two-sided
+A_E1,R4 AsH desorption,1125,-0.00172,0.00125,1.4,144,two-sided
+A_E1,R4 AsH desorption,1150,0.00031,0.00118,0.3,144,two-sided
+A_E1,R4 AsH desorption,1175,0.00201,0.00262,0.8,144,two-sided
+A_E1,R4 AsH desorption,1200,-0.00020,0.00234,0.1,144,two-sided
+A_E1,R4 AsH desorption,1225,0.00028,0.00313,0.1,144,two-sided
+A_E1,R4 AsH desorption,1230,-0.00174,0.00296,0.6,144,two-sided
+Ea_E1,R4 AsH desorption,900,0.00015,0.00015,1.0,144,two-sided
+Ea_E1,R4 AsH desorption,925,0.00009,0.00009,1.0,144,two-sided
+Ea_E1,R4 AsH desorption,950,0.00003,0.00003,1.0,144,two-sided
+Ea_E1,R4 AsH desorption,975,0.00047,0.00038,1.2,144,two-sided
+Ea_E1,R4 AsH desorption,1000,0.00048,0.00067,0.7,144,two-sided
+Ea_E1,R4 AsH desorption,1025,0.00025,0.00033,0.8,144,two-sided
+Ea_E1,R4 AsH desorption,1050,0.00076,0.00052,1.5,144,two-sided
+Ea_E1,R4 AsH desorption,1075,0.00073,0.00087,0.8,144,two-sided
+Ea_E1,R4 AsH desorption,1100,-0.00153,0.00095,1.6,144,two-sided
+Ea_E1,R4 AsH desorption,1125,0.00172,0.00125,1.4,144,two-sided
+Ea_E1,R4 AsH desorption,1150,-0.00031,0.00118,0.3,144,two-sided
+Ea_E1,R4 AsH desorption,1175,-0.00201,0.00262,0.8,144,two-sided
+Ea_E1,R4 AsH desorption,1200,0.00020,0.00234,0.1,144,two-sided
+Ea_E1,R4 AsH desorption,1225,-0.00028,0.00313,0.1,144,two-sided
+Ea_E1,R4 AsH desorption,1230,0.00174,0.00296,0.6,144,two-sided
+beta_E1,R4 AsH desorption,900,-0.00104,0.00104,1.0,144,two-sided
+beta_E1,R4 AsH desorption,925,-0.00063,0.00063,1.0,144,two-sided
+beta_E1,R4 AsH desorption,950,-0.00021,0.00021,1.0,144,two-sided
+beta_E1,R4 AsH desorption,975,-0.00323,0.00263,1.2,144,two-sided
+beta_E1,R4 AsH desorption,1000,-0.00329,0.00465,0.7,144,two-sided
+beta_E1,R4 AsH desorption,1025,-0.00174,0.00226,0.8,144,two-sided
+beta_E1,R4 AsH desorption,1050,-0.00531,0.00362,1.5,144,two-sided
+beta_E1,R4 AsH desorption,1075,-0.00507,0.00609,0.8,144,two-sided
+beta_E1,R4 AsH desorption,1100,0.01069,0.00662,1.6,144,two-sided
+beta_E1,R4 AsH desorption,1125,-0.01211,0.00876,1.4,144,two-sided
+beta_E1,R4 AsH desorption,1150,0.00215,0.00831,0.3,144,two-sided
+beta_E1,R4 AsH desorption,1175,0.01422,0.01854,0.8,144,two-sided
+beta_E1,R4 AsH desorption,1200,-0.00145,0.01657,0.1,144,two-sided
+beta_E1,R4 AsH desorption,1225,0.00199,0.02224,0.1,144,two-sided
+beta_E1,R4 AsH desorption,1230,-0.01239,0.02103,0.6,144,two-sided
+A_E12,R8 methyl removal,900,-0.00060,0.00242,0.2,144,two-sided
+A_E12,R8 methyl removal,925,0.00029,0.00262,0.1,144,two-sided
+A_E12,R8 methyl removal,950,-0.00168,0.00273,0.6,144,two-sided
+A_E12,R8 methyl removal,975,-0.00063,0.00317,0.2,144,two-sided
+A_E12,R8 methyl removal,1000,0.00082,0.00318,0.3,144,two-sided
+A_E12,R8 methyl removal,1025,-0.00503,0.00338,1.5,144,two-sided
+A_E12,R8 methyl removal,1050,-0.00224,0.00361,0.6,144,two-sided
+A_E12,R8 methyl removal,1075,-0.00341,0.00298,1.1,144,two-sided
+A_E12,R8 methyl removal,1100,0.00070,0.00365,0.2,144,two-sided
+A_E12,R8 methyl removal,1125,-0.00286,0.00450,0.6,144,two-sided
+A_E12,R8 methyl removal,1150,-0.00115,0.00441,0.3,144,two-sided
+A_E12,R8 methyl removal,1175,-0.00474,0.00446,1.1,144,two-sided
+A_E12,R8 methyl removal,1200,0.00155,0.00452,0.3,144,two-sided
+A_E12,R8 methyl removal,1225,0.00897,0.00440,2.0,144,two-sided
+A_E12,R8 methyl removal,1230,-0.00092,0.00394,0.2,144,two-sided
+Ea_E12,R8 methyl removal,900,0.00060,0.00242,0.2,144,two-sided
+Ea_E12,R8 methyl removal,925,-0.00029,0.00262,0.1,144,two-sided
+Ea_E12,R8 methyl removal,950,0.00168,0.00273,0.6,144,two-sided
+Ea_E12,R8 methyl removal,975,0.00063,0.00317,0.2,144,two-sided
+Ea_E12,R8 methyl removal,1000,-0.00082,0.00318,0.3,144,two-sided
+Ea_E12,R8 methyl removal,1025,0.00503,0.00338,1.5,144,two-sided
+Ea_E12,R8 methyl removal,1050,0.00224,0.00361,0.6,144,two-sided
+Ea_E12,R8 methyl removal,1075,0.00341,0.00298,1.1,144,two-sided
+Ea_E12,R8 methyl removal,1100,-0.00070,0.00365,0.2,144,two-sided
+Ea_E12,R8 methyl removal,1125,0.00286,0.00450,0.6,144,two-sided
+Ea_E12,R8 methyl removal,1150,0.00115,0.00441,0.3,144,two-sided
+Ea_E12,R8 methyl removal,1175,0.00474,0.00446,1.1,144,two-sided
+Ea_E12,R8 methyl removal,1200,-0.00155,0.00452,0.3,144,two-sided
+Ea_E12,R8 methyl removal,1225,-0.00897,0.00440,2.0,144,two-sided
+Ea_E12,R8 methyl removal,1230,0.00092,0.00394,0.2,144,two-sided
+beta_E12,R8 methyl removal,900,-0.00408,0.01646,0.2,144,two-sided
+beta_E12,R8 methyl removal,925,0.00199,0.01790,0.1,144,two-sided
+beta_E12,R8 methyl removal,950,-0.01155,0.01872,0.6,144,two-sided
+beta_E12,R8 methyl removal,975,-0.00435,0.02181,0.2,144,two-sided
+beta_E12,R8 methyl removal,1000,0.00563,0.02200,0.3,144,two-sided
+beta_E12,R8 methyl removal,1025,-0.03486,0.02340,1.5,144,two-sided
+beta_E12,R8 methyl removal,1050,-0.01555,0.02511,0.6,144,two-sided
+beta_E12,R8 methyl removal,1075,-0.02383,0.02082,1.1,144,two-sided
+beta_E12,R8 methyl removal,1100,0.00488,0.02557,0.2,144,two-sided
+beta_E12,R8 methyl removal,1125,-0.02011,0.03158,0.6,144,two-sided
+beta_E12,R8 methyl removal,1150,-0.00809,0.03105,0.3,144,two-sided
+beta_E12,R8 methyl removal,1175,-0.03349,0.03156,1.1,144,two-sided
+beta_E12,R8 methyl removal,1200,0.01099,0.03206,0.3,144,two-sided
+beta_E12,R8 methyl removal,1225,0.06382,0.03126,2.0,144,two-sided
+beta_E12,R8 methyl removal,1230,-0.00655,0.02800,0.2,144,two-sided
+A_E13,R9 MMGa desorption,900,-0.00194,0.00247,0.8,144,two-sided
+A_E13,R9 MMGa desorption,925,-0.00231,0.00261,0.9,144,two-sided
+A_E13,R9 MMGa desorption,950,0.00026,0.00269,0.1,144,two-sided
+A_E13,R9 MMGa desorption,975,-0.00141,0.00247,0.6,144,two-sided
+A_E13,R9 MMGa desorption,1000,-0.00209,0.00297,0.7,144,two-sided
+A_E13,R9 MMGa desorption,1025,0.00143,0.00326,0.4,144,two-sided
+A_E13,R9 MMGa desorption,1050,0.00261,0.00340,0.8,144,two-sided
+A_E13,R9 MMGa desorption,1075,0.00078,0.00380,0.2,144,two-sided
+A_E13,R9 MMGa desorption,1100,0.00161,0.00397,0.4,144,two-sided
+A_E13,R9 MMGa desorption,1125,-0.00028,0.00382,0.1,144,two-sided
+A_E13,R9 MMGa desorption,1150,-0.00211,0.00457,0.5,144,two-sided
+A_E13,R9 MMGa desorption,1175,0.00029,0.00474,0.1,144,two-sided
+A_E13,R9 MMGa desorption,1200,0.00108,0.00388,0.3,144,two-sided
+A_E13,R9 MMGa desorption,1225,-0.00532,0.00447,1.2,144,two-sided
+A_E13,R9 MMGa desorption,1230,0.00601,0.00378,1.6,144,two-sided
+Ea_E13,R9 MMGa desorption,900,0.00194,0.00247,0.8,144,two-sided
+Ea_E13,R9 MMGa desorption,925,0.00231,0.00261,0.9,144,two-sided
+Ea_E13,R9 MMGa desorption,950,-0.00026,0.00269,0.1,144,two-sided
+Ea_E13,R9 MMGa desorption,975,0.00141,0.00247,0.6,144,two-sided
+Ea_E13,R9 MMGa desorption,1000,0.00209,0.00297,0.7,144,two-sided
+Ea_E13,R9 MMGa desorption,1025,-0.00143,0.00326,0.4,144,two-sided
+Ea_E13,R9 MMGa desorption,1050,-0.00261,0.00340,0.8,144,two-sided
+Ea_E13,R9 MMGa desorption,1075,-0.00078,0.00380,0.2,144,two-sided
+Ea_E13,R9 MMGa desorption,1100,-0.00161,0.00397,0.4,144,two-sided
+Ea_E13,R9 MMGa desorption,1125,0.00028,0.00382,0.1,144,two-sided
+Ea_E13,R9 MMGa desorption,1150,0.00211,0.00457,0.5,144,two-sided
+Ea_E13,R9 MMGa desorption,1175,-0.00029,0.00474,0.1,144,two-sided
+Ea_E13,R9 MMGa desorption,1200,-0.00108,0.00388,0.3,144,two-sided
+Ea_E13,R9 MMGa desorption,1225,0.00532,0.00447,1.2,144,two-sided
+Ea_E13,R9 MMGa desorption,1230,-0.00601,0.00378,1.6,144,two-sided
+beta_E13,R9 MMGa desorption,900,-0.01320,0.01677,0.8,144,two-sided
+beta_E13,R9 MMGa desorption,925,-0.01579,0.01780,0.9,144,two-sided
+beta_E13,R9 MMGa desorption,950,0.00178,0.01847,0.1,144,two-sided
+beta_E13,R9 MMGa desorption,975,-0.00973,0.01703,0.6,144,two-sided
+beta_E13,R9 MMGa desorption,1000,-0.01440,0.02055,0.7,144,two-sided
+beta_E13,R9 MMGa desorption,1025,0.00988,0.02259,0.4,144,two-sided
+beta_E13,R9 MMGa desorption,1050,0.01813,0.02366,0.8,144,two-sided
+beta_E13,R9 MMGa desorption,1075,0.00546,0.02652,0.2,144,two-sided
+beta_E13,R9 MMGa desorption,1100,0.01129,0.02777,0.4,144,two-sided
+beta_E13,R9 MMGa desorption,1125,-0.00198,0.02683,0.1,144,two-sided
+beta_E13,R9 MMGa desorption,1150,-0.01488,0.03218,0.5,144,two-sided
+beta_E13,R9 MMGa desorption,1175,0.00208,0.03350,0.1,144,two-sided
+beta_E13,R9 MMGa desorption,1200,0.00767,0.02749,0.3,144,two-sided
+beta_E13,R9 MMGa desorption,1225,-0.03786,0.03180,1.2,144,two-sided
+beta_E13,R9 MMGa desorption,1230,0.04276,0.02692,1.6,144,two-sided
+A_E14,R12 MMGa terrace incorporation,900,-0.00021,0.00155,0.1,144,two-sided
+A_E14,R12 MMGa terrace incorporation,925,0.00131,0.00134,1.0,144,two-sided
+A_E14,R12 MMGa terrace incorporation,950,-0.00193,0.00146,1.3,144,two-sided
+A_E14,R12 MMGa terrace incorporation,975,-0.00182,0.00109,1.7,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1000,-0.00037,0.00092,0.4,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1025,0.00085,0.00090,1.0,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1050,-0.00117,0.00111,1.0,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1075,0.00027,0.00067,0.4,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1100,-0.00122,0.00123,1.0,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1125,-0.00053,0.00082,0.6,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1150,-0.00032,0.00071,0.5,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1175,-0.00004,0.00036,0.1,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1200,-0.00004,0.00076,0.1,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1225,0.00015,0.00053,0.3,144,two-sided
+A_E14,R12 MMGa terrace incorporation,1230,0.00058,0.00043,1.3,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,900,0.00021,0.00155,0.1,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,925,-0.00131,0.00134,1.0,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,950,0.00193,0.00146,1.3,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,975,0.00182,0.00109,1.7,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1000,0.00037,0.00092,0.4,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1025,-0.00085,0.00090,1.0,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1050,0.00117,0.00111,1.0,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1075,-0.00027,0.00067,0.4,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1100,0.00122,0.00123,1.0,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1125,0.00053,0.00082,0.6,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1150,0.00032,0.00071,0.5,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1175,0.00004,0.00036,0.1,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1200,0.00004,0.00076,0.1,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1225,-0.00015,0.00053,0.3,144,two-sided
+Ea_E14,R12 MMGa terrace incorporation,1230,-0.00058,0.00043,1.3,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,900,-0.00145,0.01057,0.1,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,925,0.00893,0.00916,1.0,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,950,-0.01325,0.00999,1.3,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,975,-0.01251,0.00752,1.7,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1000,-0.00259,0.00633,0.4,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1025,0.00592,0.00621,1.0,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1050,-0.00813,0.00775,1.0,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1075,0.00187,0.00468,0.4,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1100,-0.00853,0.00859,1.0,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1125,-0.00372,0.00576,0.6,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1150,-0.00226,0.00497,0.5,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1175,-0.00027,0.00252,0.1,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1200,-0.00032,0.00540,0.1,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1225,0.00104,0.00378,0.3,144,two-sided
+beta_E14,R12 MMGa terrace incorporation,1230,0.00411,0.00307,1.3,144,two-sided
+A_E17,R13 MMGa step incorporation,900,0.00282,0.00226,1.2,144,two-sided
+A_E17,R13 MMGa step incorporation,925,0.00037,0.00243,0.2,144,two-sided
+A_E17,R13 MMGa step incorporation,950,0.00024,0.00298,0.1,144,two-sided
+A_E17,R13 MMGa step incorporation,975,-0.00179,0.00305,0.6,144,two-sided
+A_E17,R13 MMGa step incorporation,1000,0.00115,0.00345,0.3,144,two-sided
+A_E17,R13 MMGa step incorporation,1025,-0.00149,0.00370,0.4,144,two-sided
+A_E17,R13 MMGa step incorporation,1050,0.00196,0.00306,0.6,144,two-sided
+A_E17,R13 MMGa step incorporation,1075,0.00699,0.00360,1.9,144,two-sided
+A_E17,R13 MMGa step incorporation,1100,0.00122,0.00390,0.3,144,two-sided
+A_E17,R13 MMGa step incorporation,1125,0.00044,0.00371,0.1,144,two-sided
+A_E17,R13 MMGa step incorporation,1150,-0.00029,0.00439,0.1,144,two-sided
+A_E17,R13 MMGa step incorporation,1175,-0.00150,0.00484,0.3,144,two-sided
+A_E17,R13 MMGa step incorporation,1200,0.00062,0.00440,0.1,144,two-sided
+A_E17,R13 MMGa step incorporation,1225,0.00304,0.00385,0.8,144,two-sided
+A_E17,R13 MMGa step incorporation,1230,-0.00282,0.00352,0.8,144,two-sided
+Ea_E17,R13 MMGa step incorporation,900,-0.00282,0.00226,1.2,144,two-sided
+Ea_E17,R13 MMGa step incorporation,925,-0.00037,0.00243,0.2,144,two-sided
+Ea_E17,R13 MMGa step incorporation,950,-0.00024,0.00298,0.1,144,two-sided
+Ea_E17,R13 MMGa step incorporation,975,0.00179,0.00305,0.6,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1000,-0.00115,0.00345,0.3,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1025,0.00149,0.00370,0.4,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1050,-0.00196,0.00306,0.6,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1075,-0.00699,0.00360,1.9,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1100,-0.00122,0.00390,0.3,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1125,-0.00044,0.00371,0.1,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1150,0.00029,0.00439,0.1,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1175,0.00150,0.00484,0.3,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1200,-0.00062,0.00440,0.1,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1225,-0.00304,0.00385,0.8,144,two-sided
+Ea_E17,R13 MMGa step incorporation,1230,0.00282,0.00352,0.8,144,two-sided
+beta_E17,R13 MMGa step incorporation,900,0.01919,0.01537,1.2,144,two-sided
+beta_E17,R13 MMGa step incorporation,925,0.00253,0.01659,0.2,144,two-sided
+beta_E17,R13 MMGa step incorporation,950,0.00164,0.02043,0.1,144,two-sided
+beta_E17,R13 MMGa step incorporation,975,-0.01231,0.02096,0.6,144,two-sided
+beta_E17,R13 MMGa step incorporation,1000,0.00798,0.02383,0.3,144,two-sided
+beta_E17,R13 MMGa step incorporation,1025,-0.01031,0.02563,0.4,144,two-sided
+beta_E17,R13 MMGa step incorporation,1050,0.01360,0.02132,0.6,144,two-sided
+beta_E17,R13 MMGa step incorporation,1075,0.04879,0.02511,1.9,144,two-sided
+beta_E17,R13 MMGa step incorporation,1100,0.00852,0.02731,0.3,144,two-sided
+beta_E17,R13 MMGa step incorporation,1125,0.00311,0.02606,0.1,144,two-sided
+beta_E17,R13 MMGa step incorporation,1150,-0.00203,0.03091,0.1,144,two-sided
+beta_E17,R13 MMGa step incorporation,1175,-0.01062,0.03422,0.3,144,two-sided
+beta_E17,R13 MMGa step incorporation,1200,0.00442,0.03121,0.1,144,two-sided
+beta_E17,R13 MMGa step incorporation,1225,0.02161,0.02735,0.8,144,two-sided
+beta_E17,R13 MMGa step incorporation,1230,-0.02007,0.02503,0.8,144,two-sided
+A_E2,R5 As desorption,900,0.00198,0.00235,0.8,144,two-sided
+A_E2,R5 As desorption,925,-0.00140,0.00273,0.5,144,two-sided
+A_E2,R5 As desorption,950,-0.00116,0.00245,0.5,144,two-sided
+A_E2,R5 As desorption,975,-0.00054,0.00276,0.2,144,two-sided
+A_E2,R5 As desorption,1000,-0.00106,0.00343,0.3,144,two-sided
+A_E2,R5 As desorption,1025,0.00563,0.00330,1.7,144,two-sided
+A_E2,R5 As desorption,1050,0.00219,0.00345,0.6,144,two-sided
+A_E2,R5 As desorption,1075,0.00202,0.00381,0.5,144,two-sided
+A_E2,R5 As desorption,1100,0.00023,0.00399,0.1,144,two-sided
+A_E2,R5 As desorption,1125,0.00399,0.00386,1.0,144,two-sided
+A_E2,R5 As desorption,1150,-0.00352,0.00425,0.8,144,two-sided
+A_E2,R5 As desorption,1175,0.00027,0.00435,0.1,144,two-sided
+A_E2,R5 As desorption,1200,0.00393,0.00437,0.9,144,two-sided
+A_E2,R5 As desorption,1225,-0.00580,0.00400,1.4,144,two-sided
+A_E2,R5 As desorption,1230,0.00551,0.00412,1.3,144,two-sided
+Ea_E2,R5 As desorption,900,-0.00198,0.00235,0.8,144,two-sided
+Ea_E2,R5 As desorption,925,0.00140,0.00273,0.5,144,two-sided
+Ea_E2,R5 As desorption,950,0.00116,0.00245,0.5,144,two-sided
+Ea_E2,R5 As desorption,975,0.00054,0.00276,0.2,144,two-sided
+Ea_E2,R5 As desorption,1000,0.00106,0.00343,0.3,144,two-sided
+Ea_E2,R5 As desorption,1025,-0.00563,0.00330,1.7,144,two-sided
+Ea_E2,R5 As desorption,1050,-0.00219,0.00345,0.6,144,two-sided
+Ea_E2,R5 As desorption,1075,-0.00202,0.00381,0.5,144,two-sided
+Ea_E2,R5 As desorption,1100,-0.00023,0.00399,0.1,144,two-sided
+Ea_E2,R5 As desorption,1125,-0.00399,0.00386,1.0,144,two-sided
+Ea_E2,R5 As desorption,1150,0.00352,0.00425,0.8,144,two-sided
+Ea_E2,R5 As desorption,1175,-0.00027,0.00435,0.1,144,two-sided
+Ea_E2,R5 As desorption,1200,-0.00393,0.00437,0.9,144,two-sided
+Ea_E2,R5 As desorption,1225,0.00580,0.00400,1.4,144,two-sided
+Ea_E2,R5 As desorption,1230,-0.00551,0.00412,1.3,144,two-sided
+beta_E2,R5 As desorption,900,0.01348,0.01597,0.8,144,two-sided
+beta_E2,R5 As desorption,925,-0.00958,0.01862,0.5,144,two-sided
+beta_E2,R5 As desorption,950,-0.00797,0.01679,0.5,144,two-sided
+beta_E2,R5 As desorption,975,-0.00368,0.01898,0.2,144,two-sided
+beta_E2,R5 As desorption,1000,-0.00733,0.02371,0.3,144,two-sided
+beta_E2,R5 As desorption,1025,0.03906,0.02289,1.7,144,two-sided
+beta_E2,R5 As desorption,1050,0.01522,0.02399,0.6,144,two-sided
+beta_E2,R5 As desorption,1075,0.01408,0.02656,0.5,144,two-sided
+beta_E2,R5 As desorption,1100,0.00164,0.02796,0.1,144,two-sided
+beta_E2,R5 As desorption,1125,0.02803,0.02712,1.0,144,two-sided
+beta_E2,R5 As desorption,1150,-0.02481,0.02996,0.8,144,two-sided
+beta_E2,R5 As desorption,1175,0.00189,0.03075,0.1,144,two-sided
+beta_E2,R5 As desorption,1200,0.02786,0.03098,0.9,144,two-sided
+beta_E2,R5 As desorption,1225,-0.04122,0.02846,1.4,144,two-sided
+beta_E2,R5 As desorption,1230,0.03921,0.02933,1.3,144,two-sided
+A_E20,R15 AsH step incorporation,900,-0.00298,0.00229,1.3,144,two-sided
+A_E20,R15 AsH step incorporation,925,0.00036,0.00266,0.1,144,two-sided
+A_E20,R15 AsH step incorporation,950,0.00353,0.00259,1.4,144,two-sided
+A_E20,R15 AsH step incorporation,975,0.00396,0.00275,1.4,144,two-sided
+A_E20,R15 AsH step incorporation,1000,0.00088,0.00318,0.3,144,two-sided
+A_E20,R15 AsH step incorporation,1025,0.00163,0.00353,0.5,144,two-sided
+A_E20,R15 AsH step incorporation,1050,0.00717,0.00365,2.0,144,two-sided
+A_E20,R15 AsH step incorporation,1075,0.00034,0.00378,0.1,144,two-sided
+A_E20,R15 AsH step incorporation,1100,0.00023,0.00420,0.1,144,two-sided
+A_E20,R15 AsH step incorporation,1125,0.00223,0.00414,0.5,144,two-sided
+A_E20,R15 AsH step incorporation,1150,0.00679,0.00461,1.5,144,two-sided
+A_E20,R15 AsH step incorporation,1175,-0.00151,0.00456,0.3,144,two-sided
+A_E20,R15 AsH step incorporation,1200,0.00118,0.00381,0.3,144,two-sided
+A_E20,R15 AsH step incorporation,1225,0.00533,0.00406,1.3,144,two-sided
+A_E20,R15 AsH step incorporation,1230,0.00616,0.00368,1.7,144,two-sided
+Ea_E20,R15 AsH step incorporation,900,0.00298,0.00229,1.3,144,two-sided
+Ea_E20,R15 AsH step incorporation,925,-0.00036,0.00266,0.1,144,two-sided
+Ea_E20,R15 AsH step incorporation,950,-0.00353,0.00259,1.4,144,two-sided
+Ea_E20,R15 AsH step incorporation,975,-0.00396,0.00275,1.4,144,two-sided
+Ea_E20,R15 AsH step incorporation,1000,-0.00088,0.00318,0.3,144,two-sided
+Ea_E20,R15 AsH step incorporation,1025,-0.00163,0.00353,0.5,144,two-sided
+Ea_E20,R15 AsH step incorporation,1050,-0.00717,0.00365,2.0,144,two-sided
+Ea_E20,R15 AsH step incorporation,1075,-0.00034,0.00378,0.1,144,two-sided
+Ea_E20,R15 AsH step incorporation,1100,-0.00023,0.00420,0.1,144,two-sided
+Ea_E20,R15 AsH step incorporation,1125,-0.00223,0.00414,0.5,144,two-sided
+Ea_E20,R15 AsH step incorporation,1150,-0.00679,0.00461,1.5,144,two-sided
+Ea_E20,R15 AsH step incorporation,1175,0.00151,0.00456,0.3,144,two-sided
+Ea_E20,R15 AsH step incorporation,1200,-0.00118,0.00381,0.3,144,two-sided
+Ea_E20,R15 AsH step incorporation,1225,-0.00533,0.00406,1.3,144,two-sided
+Ea_E20,R15 AsH step incorporation,1230,-0.00616,0.00368,1.7,144,two-sided
+beta_E20,R15 AsH step incorporation,900,-0.02030,0.01556,1.3,144,two-sided
+beta_E20,R15 AsH step incorporation,925,0.00248,0.01817,0.1,144,two-sided
+beta_E20,R15 AsH step incorporation,950,0.02422,0.01776,1.4,144,two-sided
+beta_E20,R15 AsH step incorporation,975,0.02723,0.01893,1.4,144,two-sided
+beta_E20,R15 AsH step incorporation,1000,0.00607,0.02193,0.3,144,two-sided
+beta_E20,R15 AsH step incorporation,1025,0.01131,0.02450,0.5,144,two-sided
+beta_E20,R15 AsH step incorporation,1050,0.04987,0.02540,2.0,144,two-sided
+beta_E20,R15 AsH step incorporation,1075,0.00234,0.02636,0.1,144,two-sided
+beta_E20,R15 AsH step incorporation,1100,0.00159,0.02940,0.1,144,two-sided
+beta_E20,R15 AsH step incorporation,1125,0.01569,0.02909,0.5,144,two-sided
+beta_E20,R15 AsH step incorporation,1150,0.04782,0.03246,1.5,144,two-sided
+beta_E20,R15 AsH step incorporation,1175,-0.01068,0.03222,0.3,144,two-sided
+beta_E20,R15 AsH step incorporation,1200,0.00833,0.02703,0.3,144,two-sided
+beta_E20,R15 AsH step incorporation,1225,0.03790,0.02884,1.3,144,two-sided
+beta_E20,R15 AsH step incorporation,1230,0.04381,0.02618,1.7,144,two-sided
+A_E23,R17 As step incorporation,900,-0.00103,0.00204,0.5,144,two-sided
+A_E23,R17 As step incorporation,925,0.00029,0.00240,0.1,144,two-sided
+A_E23,R17 As step incorporation,950,-0.00026,0.00280,0.1,144,two-sided
+A_E23,R17 As step incorporation,975,0.00122,0.00298,0.4,144,two-sided
+A_E23,R17 As step incorporation,1000,0.00088,0.00300,0.3,144,two-sided
+A_E23,R17 As step incorporation,1025,-0.00020,0.00339,0.1,144,two-sided
+A_E23,R17 As step incorporation,1050,0.00144,0.00278,0.5,144,two-sided
+A_E23,R17 As step incorporation,1075,-0.00376,0.00363,1.0,144,two-sided
+A_E23,R17 As step incorporation,1100,-0.00093,0.00410,0.2,144,two-sided
+A_E23,R17 As step incorporation,1125,0.00339,0.00412,0.8,144,two-sided
+A_E23,R17 As step incorporation,1150,0.00268,0.00436,0.6,144,two-sided
+A_E23,R17 As step incorporation,1175,-0.00060,0.00471,0.1,144,two-sided
+A_E23,R17 As step incorporation,1200,0.00042,0.00492,0.1,144,two-sided
+A_E23,R17 As step incorporation,1225,-0.00125,0.00388,0.3,144,two-sided
+A_E23,R17 As step incorporation,1230,-0.00459,0.00426,1.1,144,two-sided
+Ea_E23,R17 As step incorporation,900,0.00103,0.00204,0.5,144,two-sided
+Ea_E23,R17 As step incorporation,925,-0.00029,0.00240,0.1,144,two-sided
+Ea_E23,R17 As step incorporation,950,0.00026,0.00280,0.1,144,two-sided
+Ea_E23,R17 As step incorporation,975,-0.00122,0.00298,0.4,144,two-sided
+Ea_E23,R17 As step incorporation,1000,-0.00088,0.00300,0.3,144,two-sided
+Ea_E23,R17 As step incorporation,1025,0.00020,0.00339,0.1,144,two-sided
+Ea_E23,R17 As step incorporation,1050,-0.00144,0.00278,0.5,144,two-sided
+Ea_E23,R17 As step incorporation,1075,0.00376,0.00363,1.0,144,two-sided
+Ea_E23,R17 As step incorporation,1100,0.00093,0.00410,0.2,144,two-sided
+Ea_E23,R17 As step incorporation,1125,-0.00339,0.00412,0.8,144,two-sided
+Ea_E23,R17 As step incorporation,1150,-0.00268,0.00436,0.6,144,two-sided
+Ea_E23,R17 As step incorporation,1175,0.00060,0.00471,0.1,144,two-sided
+Ea_E23,R17 As step incorporation,1200,-0.00042,0.00492,0.1,144,two-sided
+Ea_E23,R17 As step incorporation,1225,0.00125,0.00388,0.3,144,two-sided
+Ea_E23,R17 As step incorporation,1230,0.00459,0.00426,1.1,144,two-sided
+beta_E23,R17 As step incorporation,900,-0.00703,0.01386,0.5,144,two-sided
+beta_E23,R17 As step incorporation,925,0.00200,0.01636,0.1,144,two-sided
+beta_E23,R17 As step incorporation,950,-0.00181,0.01923,0.1,144,two-sided
+beta_E23,R17 As step incorporation,975,0.00842,0.02049,0.4,144,two-sided
+beta_E23,R17 As step incorporation,1000,0.00607,0.02069,0.3,144,two-sided
+beta_E23,R17 As step incorporation,1025,-0.00137,0.02348,0.1,144,two-sided
+beta_E23,R17 As step incorporation,1050,0.01002,0.01935,0.5,144,two-sided
+beta_E23,R17 As step incorporation,1075,-0.02625,0.02532,1.0,144,two-sided
+beta_E23,R17 As step incorporation,1100,-0.00652,0.02872,0.2,144,two-sided
+beta_E23,R17 As step incorporation,1125,0.02379,0.02896,0.8,144,two-sided
+beta_E23,R17 As step incorporation,1150,0.01892,0.03073,0.6,144,two-sided
+beta_E23,R17 As step incorporation,1175,-0.00424,0.03328,0.1,144,two-sided
+beta_E23,R17 As step incorporation,1200,0.00300,0.03490,0.1,144,two-sided
+beta_E23,R17 As step incorporation,1225,-0.00886,0.02756,0.3,144,two-sided
+beta_E23,R17 As step incorporation,1230,-0.03263,0.03031,1.1,144,two-sided
+A_E26,R14 AsH terrace incorporation,900,-0.00282,0.00196,1.4,144,two-sided
+A_E26,R14 AsH terrace incorporation,925,-0.00184,0.00233,0.8,144,two-sided
+A_E26,R14 AsH terrace incorporation,950,-0.00093,0.00252,0.4,144,two-sided
+A_E26,R14 AsH terrace incorporation,975,0.00313,0.00254,1.2,144,two-sided
+A_E26,R14 AsH terrace incorporation,1000,-0.00403,0.00273,1.5,144,two-sided
+A_E26,R14 AsH terrace incorporation,1025,0.00041,0.00303,0.1,144,two-sided
+A_E26,R14 AsH terrace incorporation,1050,0.00118,0.00347,0.3,144,two-sided
+A_E26,R14 AsH terrace incorporation,1075,0.00239,0.00387,0.6,144,two-sided
+A_E26,R14 AsH terrace incorporation,1100,0.00315,0.00353,0.9,144,two-sided
+A_E26,R14 AsH terrace incorporation,1125,0.00284,0.00396,0.7,144,two-sided
+A_E26,R14 AsH terrace incorporation,1150,-0.00021,0.00425,0.1,144,two-sided
+A_E26,R14 AsH terrace incorporation,1175,-0.00433,0.00434,1.0,144,two-sided
+A_E26,R14 AsH terrace incorporation,1200,0.00169,0.00396,0.4,144,two-sided
+A_E26,R14 AsH terrace incorporation,1225,-0.00111,0.00428,0.3,144,two-sided
+A_E26,R14 AsH terrace incorporation,1230,-0.00137,0.00418,0.3,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,900,0.00282,0.00196,1.4,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,925,0.00184,0.00233,0.8,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,950,0.00093,0.00252,0.4,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,975,-0.00313,0.00254,1.2,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1000,0.00403,0.00273,1.5,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1025,-0.00041,0.00303,0.1,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1050,-0.00118,0.00347,0.3,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1075,-0.00239,0.00387,0.6,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1100,-0.00315,0.00353,0.9,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1125,-0.00284,0.00396,0.7,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1150,0.00021,0.00425,0.1,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1175,0.00433,0.00434,1.0,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1200,-0.00169,0.00396,0.4,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1225,0.00111,0.00428,0.3,144,two-sided
+Ea_E26,R14 AsH terrace incorporation,1230,0.00137,0.00418,0.3,144,two-sided
+beta_E26,R14 AsH terrace incorporation,900,-0.01920,0.01331,1.4,144,two-sided
+beta_E26,R14 AsH terrace incorporation,925,-0.01254,0.01593,0.8,144,two-sided
+beta_E26,R14 AsH terrace incorporation,950,-0.00635,0.01731,0.4,144,two-sided
+beta_E26,R14 AsH terrace incorporation,975,0.02156,0.01747,1.2,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1000,-0.02786,0.01885,1.5,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1025,0.00287,0.02102,0.1,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1050,0.00824,0.02416,0.3,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1075,0.01666,0.02700,0.6,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1100,0.02208,0.02470,0.9,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1125,0.01998,0.02783,0.7,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1150,-0.00151,0.02995,0.1,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1175,-0.03062,0.03071,1.0,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1200,0.01195,0.02807,0.4,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1225,-0.00789,0.03040,0.3,144,two-sided
+beta_E26,R14 AsH terrace incorporation,1230,-0.00975,0.02975,0.3,144,two-sided
+A_E29,R16 As terrace incorporation,900,0.00092,0.00272,0.3,144,two-sided
+A_E29,R16 As terrace incorporation,925,-0.00055,0.00241,0.2,144,two-sided
+A_E29,R16 As terrace incorporation,950,0.00049,0.00261,0.2,144,two-sided
+A_E29,R16 As terrace incorporation,975,-0.00233,0.00320,0.7,144,two-sided
+A_E29,R16 As terrace incorporation,1000,-0.00219,0.00307,0.7,144,two-sided
+A_E29,R16 As terrace incorporation,1025,-0.00261,0.00311,0.8,144,two-sided
+A_E29,R16 As terrace incorporation,1050,0.00524,0.00349,1.5,144,two-sided
+A_E29,R16 As terrace incorporation,1075,-0.00226,0.00343,0.7,144,two-sided
+A_E29,R16 As terrace incorporation,1100,0.00002,0.00438,0.0,144,two-sided
+A_E29,R16 As terrace incorporation,1125,0.00288,0.00410,0.7,144,two-sided
+A_E29,R16 As terrace incorporation,1150,0.00626,0.00438,1.4,144,two-sided
+A_E29,R16 As terrace incorporation,1175,-0.00039,0.00414,0.1,144,two-sided
+A_E29,R16 As terrace incorporation,1200,0.00486,0.00394,1.2,144,two-sided
+A_E29,R16 As terrace incorporation,1225,0.00963,0.00362,2.7,144,two-sided
+A_E29,R16 As terrace incorporation,1230,-0.00145,0.00412,0.4,144,two-sided
+Ea_E29,R16 As terrace incorporation,900,-0.00092,0.00272,0.3,144,two-sided
+Ea_E29,R16 As terrace incorporation,925,0.00055,0.00241,0.2,144,two-sided
+Ea_E29,R16 As terrace incorporation,950,-0.00049,0.00261,0.2,144,two-sided
+Ea_E29,R16 As terrace incorporation,975,0.00233,0.00320,0.7,144,two-sided
+Ea_E29,R16 As terrace incorporation,1000,0.00219,0.00307,0.7,144,two-sided
+Ea_E29,R16 As terrace incorporation,1025,0.00261,0.00311,0.8,144,two-sided
+Ea_E29,R16 As terrace incorporation,1050,-0.00524,0.00349,1.5,144,two-sided
+Ea_E29,R16 As terrace incorporation,1075,0.00226,0.00343,0.7,144,two-sided
+Ea_E29,R16 As terrace incorporation,1100,-0.00002,0.00438,0.0,144,two-sided
+Ea_E29,R16 As terrace incorporation,1125,-0.00288,0.00410,0.7,144,two-sided
+Ea_E29,R16 As terrace incorporation,1150,-0.00626,0.00438,1.4,144,two-sided
+Ea_E29,R16 As terrace incorporation,1175,0.00039,0.00414,0.1,144,two-sided
+Ea_E29,R16 As terrace incorporation,1200,-0.00486,0.00394,1.2,144,two-sided
+Ea_E29,R16 As terrace incorporation,1225,-0.00963,0.00362,2.7,144,two-sided
+Ea_E29,R16 As terrace incorporation,1230,0.00145,0.00412,0.4,144,two-sided
+beta_E29,R16 As terrace incorporation,900,0.00628,0.01850,0.3,144,two-sided
+beta_E29,R16 As terrace incorporation,925,-0.00373,0.01645,0.2,144,two-sided
+beta_E29,R16 As terrace incorporation,950,0.00336,0.01786,0.2,144,two-sided
+beta_E29,R16 As terrace incorporation,975,-0.01605,0.02200,0.7,144,two-sided
+beta_E29,R16 As terrace incorporation,1000,-0.01516,0.02123,0.7,144,two-sided
+beta_E29,R16 As terrace incorporation,1025,-0.01812,0.02155,0.8,144,two-sided
+beta_E29,R16 As terrace incorporation,1050,0.03646,0.02427,1.5,144,two-sided
+beta_E29,R16 As terrace incorporation,1075,-0.01579,0.02394,0.7,144,two-sided
+beta_E29,R16 As terrace incorporation,1100,0.00016,0.03067,0.0,144,two-sided
+beta_E29,R16 As terrace incorporation,1125,0.02024,0.02882,0.7,144,two-sided
+beta_E29,R16 As terrace incorporation,1150,0.04412,0.03089,1.4,144,two-sided
+beta_E29,R16 As terrace incorporation,1175,-0.00276,0.02928,0.1,144,two-sided
+beta_E29,R16 As terrace incorporation,1200,0.03444,0.02795,1.2,144,two-sided
+beta_E29,R16 As terrace incorporation,1225,0.06846,0.02573,2.7,144,two-sided
+beta_E29,R16 As terrace incorporation,1230,-0.01033,0.02931,0.4,144,two-sided
+A_E3,R3 H removal from AsH,900,0.00071,0.00218,0.3,144,two-sided
+A_E3,R3 H removal from AsH,925,-0.00221,0.00246,0.9,144,two-sided
+A_E3,R3 H removal from AsH,950,-0.00146,0.00313,0.5,144,two-sided
+A_E3,R3 H removal from AsH,975,0.00162,0.00272,0.6,144,two-sided
+A_E3,R3 H removal from AsH,1000,-0.00417,0.00292,1.4,144,two-sided
+A_E3,R3 H removal from AsH,1025,-0.00430,0.00337,1.3,144,two-sided
+A_E3,R3 H removal from AsH,1050,0.00037,0.00365,0.1,144,two-sided
+A_E3,R3 H removal from AsH,1075,-0.00287,0.00382,0.7,144,two-sided
+A_E3,R3 H removal from AsH,1100,-0.00234,0.00429,0.5,144,two-sided
+A_E3,R3 H removal from AsH,1125,-0.00352,0.00415,0.8,144,two-sided
+A_E3,R3 H removal from AsH,1150,-0.00254,0.00423,0.6,144,two-sided
+A_E3,R3 H removal from AsH,1175,-0.00137,0.00416,0.3,144,two-sided
+A_E3,R3 H removal from AsH,1200,0.00514,0.00425,1.2,144,two-sided
+A_E3,R3 H removal from AsH,1225,0.00236,0.00383,0.6,144,two-sided
+A_E3,R3 H removal from AsH,1230,-0.00578,0.00353,1.6,144,two-sided
+Ea_E3,R3 H removal from AsH,900,-0.00071,0.00218,0.3,144,two-sided
+Ea_E3,R3 H removal from AsH,925,0.00221,0.00246,0.9,144,two-sided
+Ea_E3,R3 H removal from AsH,950,0.00146,0.00313,0.5,144,two-sided
+Ea_E3,R3 H removal from AsH,975,-0.00162,0.00272,0.6,144,two-sided
+Ea_E3,R3 H removal from AsH,1000,0.00417,0.00292,1.4,144,two-sided
+Ea_E3,R3 H removal from AsH,1025,0.00430,0.00337,1.3,144,two-sided
+Ea_E3,R3 H removal from AsH,1050,-0.00037,0.00365,0.1,144,two-sided
+Ea_E3,R3 H removal from AsH,1075,0.00287,0.00382,0.7,144,two-sided
+Ea_E3,R3 H removal from AsH,1100,0.00234,0.00429,0.5,144,two-sided
+Ea_E3,R3 H removal from AsH,1125,0.00352,0.00415,0.8,144,two-sided
+Ea_E3,R3 H removal from AsH,1150,0.00254,0.00423,0.6,144,two-sided
+Ea_E3,R3 H removal from AsH,1175,0.00137,0.00416,0.3,144,two-sided
+Ea_E3,R3 H removal from AsH,1200,-0.00514,0.00425,1.2,144,two-sided
+Ea_E3,R3 H removal from AsH,1225,-0.00236,0.00383,0.6,144,two-sided
+Ea_E3,R3 H removal from AsH,1230,0.00578,0.00353,1.6,144,two-sided
+beta_E3,R3 H removal from AsH,900,0.00485,0.01486,0.3,144,two-sided
+beta_E3,R3 H removal from AsH,925,-0.01508,0.01679,0.9,144,two-sided
+beta_E3,R3 H removal from AsH,950,-0.01002,0.02149,0.5,144,two-sided
+beta_E3,R3 H removal from AsH,975,0.01114,0.01869,0.6,144,two-sided
+beta_E3,R3 H removal from AsH,1000,-0.02883,0.02014,1.4,144,two-sided
+beta_E3,R3 H removal from AsH,1025,-0.02979,0.02335,1.3,144,two-sided
+beta_E3,R3 H removal from AsH,1050,0.00256,0.02541,0.1,144,two-sided
+beta_E3,R3 H removal from AsH,1075,-0.02000,0.02668,0.7,144,two-sided
+beta_E3,R3 H removal from AsH,1100,-0.01637,0.03003,0.5,144,two-sided
+beta_E3,R3 H removal from AsH,1125,-0.02472,0.02914,0.8,144,two-sided
+beta_E3,R3 H removal from AsH,1150,-0.01788,0.02983,0.6,144,two-sided
+beta_E3,R3 H removal from AsH,1175,-0.00970,0.02943,0.3,144,two-sided
+beta_E3,R3 H removal from AsH,1200,0.03642,0.03010,1.2,144,two-sided
+beta_E3,R3 H removal from AsH,1225,0.01677,0.02725,0.6,144,two-sided
+beta_E3,R3 H removal from AsH,1230,-0.04112,0.02509,1.6,144,two-sided
+A_E32,"R10 desorption, two bonds",900,-0.00137,0.00229,0.6,144,two-sided
+A_E32,"R10 desorption, two bonds",925,-0.00178,0.00248,0.7,144,two-sided
+A_E32,"R10 desorption, two bonds",950,-0.00145,0.00280,0.5,144,two-sided
+A_E32,"R10 desorption, two bonds",975,-0.01165,0.00258,4.5,144,two-sided
+A_E32,"R10 desorption, two bonds",1000,-0.02289,0.00285,8.0,144,two-sided
+A_E32,"R10 desorption, two bonds",1025,-0.02922,0.00299,9.8,144,two-sided
+A_E32,"R10 desorption, two bonds",1050,-0.05088,0.00366,13.9,144,two-sided
+A_E32,"R10 desorption, two bonds",1075,-0.09148,0.00359,25.5,144,two-sided
+A_E32,"R10 desorption, two bonds",1100,-0.14995,0.00389,38.6,144,two-sided
+A_E32,"R10 desorption, two bonds",1125,-0.24743,0.00388,63.7,144,two-sided
+A_E32,"R10 desorption, two bonds",1150,-0.37001,0.00420,88.1,144,two-sided
+A_E32,"R10 desorption, two bonds",1175,-0.57088,0.00441,129.5,144,two-sided
+A_E32,"R10 desorption, two bonds",1200,-0.88418,0.00471,187.6,144,two-sided
+A_E32,"R10 desorption, two bonds",1225,-1.23052,0.00928,132.5,144,one-sided
+A_E32,"R10 desorption, two bonds",1230,-1.39481,0.00901,154.8,144,one-sided
+Ea_E32,"R10 desorption, two bonds",900,0.00137,0.00229,0.6,144,two-sided
+Ea_E32,"R10 desorption, two bonds",925,0.00178,0.00248,0.7,144,two-sided
+Ea_E32,"R10 desorption, two bonds",950,0.00145,0.00280,0.5,144,two-sided
+Ea_E32,"R10 desorption, two bonds",975,0.01165,0.00258,4.5,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1000,0.02289,0.00285,8.0,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1025,0.02922,0.00299,9.8,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1050,0.05088,0.00366,13.9,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1075,0.09148,0.00359,25.5,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1100,0.14995,0.00389,38.6,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1125,0.24743,0.00388,63.7,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1150,0.37001,0.00420,88.1,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1175,0.57088,0.00441,129.5,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1200,0.88418,0.00471,187.6,144,two-sided
+Ea_E32,"R10 desorption, two bonds",1225,1.23052,0.00928,132.5,144,one-sided
+Ea_E32,"R10 desorption, two bonds",1230,1.39481,0.00901,154.8,144,one-sided
+beta_E32,"R10 desorption, two bonds",900,-0.00931,0.01557,0.6,144,two-sided
+beta_E32,"R10 desorption, two bonds",925,-0.01218,0.01694,0.7,144,two-sided
+beta_E32,"R10 desorption, two bonds",950,-0.00994,0.01918,0.5,144,two-sided
+beta_E32,"R10 desorption, two bonds",975,-0.08017,0.01773,4.5,144,two-sided
+beta_E32,"R10 desorption, two bonds",1000,-0.15811,0.01966,8.0,144,two-sided
+beta_E32,"R10 desorption, two bonds",1025,-0.20256,0.02075,9.8,144,two-sided
+beta_E32,"R10 desorption, two bonds",1050,-0.35394,0.02548,13.9,144,two-sided
+beta_E32,"R10 desorption, two bonds",1075,-0.63857,0.02508,25.5,144,two-sided
+beta_E32,"R10 desorption, two bonds",1100,-1.05013,0.02721,38.6,144,two-sided
+beta_E32,"R10 desorption, two bonds",1125,-1.73835,0.02728,63.7,144,two-sided
+beta_E32,"R10 desorption, two bonds",1150,-2.60763,0.02959,88.1,144,two-sided
+beta_E32,"R10 desorption, two bonds",1175,-4.03558,0.03116,129.5,144,two-sided
+beta_E32,"R10 desorption, two bonds",1200,-6.26890,0.03341,187.6,144,two-sided
+beta_E32,"R10 desorption, two bonds",1225,-8.74984,0.06602,132.5,144,one-sided
+beta_E32,"R10 desorption, two bonds",1230,-9.92377,0.06410,154.8,144,one-sided
+A_E33,"R11 desorption, three bonds",900,-0.00088,0.00263,0.3,144,two-sided
+A_E33,"R11 desorption, three bonds",925,0.00416,0.00235,1.8,144,two-sided
+A_E33,"R11 desorption, three bonds",950,-0.00039,0.00276,0.1,144,two-sided
+A_E33,"R11 desorption, three bonds",975,0.00123,0.00272,0.5,144,two-sided
+A_E33,"R11 desorption, three bonds",1000,0.00068,0.00308,0.2,144,two-sided
+A_E33,"R11 desorption, three bonds",1025,-0.00226,0.00327,0.7,144,two-sided
+A_E33,"R11 desorption, three bonds",1050,-0.00411,0.00354,1.2,144,two-sided
+A_E33,"R11 desorption, three bonds",1075,-0.00201,0.00380,0.5,144,two-sided
+A_E33,"R11 desorption, three bonds",1100,-0.00144,0.00345,0.4,144,two-sided
+A_E33,"R11 desorption, three bonds",1125,0.00300,0.00390,0.8,144,two-sided
+A_E33,"R11 desorption, three bonds",1150,-0.00399,0.00413,1.0,144,two-sided
+A_E33,"R11 desorption, three bonds",1175,-0.00851,0.00404,2.1,144,two-sided
+A_E33,"R11 desorption, three bonds",1200,-0.01902,0.00442,4.3,144,two-sided
+A_E33,"R11 desorption, three bonds",1225,-0.07407,0.00424,17.5,144,two-sided
+A_E33,"R11 desorption, three bonds",1230,-0.09122,0.00459,19.9,144,two-sided
+Ea_E33,"R11 desorption, three bonds",900,0.00088,0.00263,0.3,144,two-sided
+Ea_E33,"R11 desorption, three bonds",925,-0.00416,0.00235,1.8,144,two-sided
+Ea_E33,"R11 desorption, three bonds",950,0.00039,0.00276,0.1,144,two-sided
+Ea_E33,"R11 desorption, three bonds",975,-0.00123,0.00272,0.5,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1000,-0.00068,0.00308,0.2,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1025,0.00226,0.00327,0.7,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1050,0.00411,0.00354,1.2,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1075,0.00201,0.00380,0.5,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1100,0.00144,0.00345,0.4,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1125,-0.00300,0.00390,0.8,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1150,0.00399,0.00413,1.0,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1175,0.00851,0.00404,2.1,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1200,0.01902,0.00442,4.3,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1225,0.07407,0.00424,17.5,144,two-sided
+Ea_E33,"R11 desorption, three bonds",1230,0.09122,0.00459,19.9,144,two-sided
+beta_E33,"R11 desorption, three bonds",900,-0.00599,0.01786,0.3,144,two-sided
+beta_E33,"R11 desorption, three bonds",925,0.02839,0.01606,1.8,144,two-sided
+beta_E33,"R11 desorption, three bonds",950,-0.00269,0.01893,0.1,144,two-sided
+beta_E33,"R11 desorption, three bonds",975,0.00848,0.01871,0.5,144,two-sided
+beta_E33,"R11 desorption, three bonds",1000,0.00471,0.02127,0.2,144,two-sided
+beta_E33,"R11 desorption, three bonds",1025,-0.01564,0.02269,0.7,144,two-sided
+beta_E33,"R11 desorption, three bonds",1050,-0.02861,0.02461,1.2,144,two-sided
+beta_E33,"R11 desorption, three bonds",1075,-0.01406,0.02653,0.5,144,two-sided
+beta_E33,"R11 desorption, three bonds",1100,-0.01008,0.02414,0.4,144,two-sided
+beta_E33,"R11 desorption, three bonds",1125,0.02108,0.02740,0.8,144,two-sided
+beta_E33,"R11 desorption, three bonds",1150,-0.02809,0.02908,1.0,144,two-sided
+beta_E33,"R11 desorption, three bonds",1175,-0.06013,0.02853,2.1,144,two-sided
+beta_E33,"R11 desorption, three bonds",1200,-0.13482,0.03131,4.3,144,two-sided
+beta_E33,"R11 desorption, three bonds",1225,-0.52672,0.03014,17.5,144,two-sided
+beta_E33,"R11 desorption, three bonds",1230,-0.64902,0.03264,19.9,144,two-sided
+A_E37,R18 Ga desorption,900,-0.01238,0.00241,5.1,144,two-sided
+A_E37,R18 Ga desorption,925,-0.01224,0.00228,5.4,144,two-sided
+A_E37,R18 Ga desorption,950,-0.00575,0.00253,2.3,144,two-sided
+A_E37,R18 Ga desorption,975,-0.00927,0.00290,3.2,144,two-sided
+A_E37,R18 Ga desorption,1000,-0.00712,0.00323,2.2,144,two-sided
+A_E37,R18 Ga desorption,1025,-0.00348,0.00352,1.0,144,two-sided
+A_E37,R18 Ga desorption,1050,-0.00076,0.00351,0.2,144,two-sided
+A_E37,R18 Ga desorption,1075,-0.00065,0.00361,0.2,144,two-sided
+A_E37,R18 Ga desorption,1100,-0.00228,0.00378,0.6,144,two-sided
+A_E37,R18 Ga desorption,1125,-0.00494,0.00410,1.2,144,two-sided
+A_E37,R18 Ga desorption,1150,-0.00188,0.00418,0.4,144,two-sided
+A_E37,R18 Ga desorption,1175,0.00175,0.00443,0.4,144,two-sided
+A_E37,R18 Ga desorption,1200,0.00527,0.00376,1.4,144,two-sided
+A_E37,R18 Ga desorption,1225,-0.00229,0.00409,0.6,144,two-sided
+A_E37,R18 Ga desorption,1230,-0.00488,0.00398,1.2,144,two-sided
+Ea_E37,R18 Ga desorption,900,0.01238,0.00241,5.1,144,two-sided
+Ea_E37,R18 Ga desorption,925,0.01224,0.00228,5.4,144,two-sided
+Ea_E37,R18 Ga desorption,950,0.00575,0.00253,2.3,144,two-sided
+Ea_E37,R18 Ga desorption,975,0.00927,0.00290,3.2,144,two-sided
+Ea_E37,R18 Ga desorption,1000,0.00712,0.00323,2.2,144,two-sided
+Ea_E37,R18 Ga desorption,1025,0.00348,0.00352,1.0,144,two-sided
+Ea_E37,R18 Ga desorption,1050,0.00076,0.00351,0.2,144,two-sided
+Ea_E37,R18 Ga desorption,1075,0.00065,0.00361,0.2,144,two-sided
+Ea_E37,R18 Ga desorption,1100,0.00228,0.00378,0.6,144,two-sided
+Ea_E37,R18 Ga desorption,1125,0.00494,0.00410,1.2,144,two-sided
+Ea_E37,R18 Ga desorption,1150,0.00188,0.00418,0.4,144,two-sided
+Ea_E37,R18 Ga desorption,1175,-0.00175,0.00443,0.4,144,two-sided
+Ea_E37,R18 Ga desorption,1200,-0.00527,0.00376,1.4,144,two-sided
+Ea_E37,R18 Ga desorption,1225,0.00229,0.00409,0.6,144,two-sided
+Ea_E37,R18 Ga desorption,1230,0.00488,0.00398,1.2,144,two-sided
+beta_E37,R18 Ga desorption,900,-0.08424,0.01637,5.1,144,two-sided
+beta_E37,R18 Ga desorption,925,-0.08360,0.01557,5.4,144,two-sided
+beta_E37,R18 Ga desorption,950,-0.03946,0.01734,2.3,144,two-sided
+beta_E37,R18 Ga desorption,975,-0.06383,0.01994,3.2,144,two-sided
+beta_E37,R18 Ga desorption,1000,-0.04920,0.02230,2.2,144,two-sided
+beta_E37,R18 Ga desorption,1025,-0.02409,0.02439,1.0,144,two-sided
+beta_E37,R18 Ga desorption,1050,-0.00530,0.02439,0.2,144,two-sided
+beta_E37,R18 Ga desorption,1075,-0.00451,0.02517,0.2,144,two-sided
+beta_E37,R18 Ga desorption,1100,-0.01594,0.02647,0.6,144,two-sided
+beta_E37,R18 Ga desorption,1125,-0.03469,0.02878,1.2,144,two-sided
+beta_E37,R18 Ga desorption,1150,-0.01324,0.02943,0.4,144,two-sided
+beta_E37,R18 Ga desorption,1175,0.01239,0.03132,0.4,144,two-sided
+beta_E37,R18 Ga desorption,1200,0.03738,0.02668,1.4,144,two-sided
+beta_E37,R18 Ga desorption,1225,-0.01628,0.02908,0.6,144,two-sided
+beta_E37,R18 Ga desorption,1230,-0.03475,0.02835,1.2,144,two-sided
+A_E38,R19 Ga terrace incorporation,900,0.00108,0.00222,0.5,144,two-sided
+A_E38,R19 Ga terrace incorporation,925,0.00139,0.00226,0.6,144,two-sided
+A_E38,R19 Ga terrace incorporation,950,0.00032,0.00245,0.1,144,two-sided
+A_E38,R19 Ga terrace incorporation,975,-0.00402,0.00238,1.7,144,two-sided
+A_E38,R19 Ga terrace incorporation,1000,-0.00244,0.00171,1.4,144,two-sided
+A_E38,R19 Ga terrace incorporation,1025,-0.00180,0.00167,1.1,144,two-sided
+A_E38,R19 Ga terrace incorporation,1050,-0.00137,0.00177,0.8,144,two-sided
+A_E38,R19 Ga terrace incorporation,1075,0.00274,0.00163,1.7,144,two-sided
+A_E38,R19 Ga terrace incorporation,1100,0.00045,0.00151,0.3,144,two-sided
+A_E38,R19 Ga terrace incorporation,1125,0.00104,0.00151,0.7,144,two-sided
+A_E38,R19 Ga terrace incorporation,1150,0.00370,0.00180,2.1,144,two-sided
+A_E38,R19 Ga terrace incorporation,1175,-0.00018,0.00163,0.1,144,two-sided
+A_E38,R19 Ga terrace incorporation,1200,0.00378,0.00190,2.0,144,two-sided
+A_E38,R19 Ga terrace incorporation,1225,0.00292,0.00314,0.9,144,two-sided
+A_E38,R19 Ga terrace incorporation,1230,0.00218,0.00321,0.7,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,900,-0.00108,0.00222,0.5,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,925,-0.00139,0.00226,0.6,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,950,-0.00032,0.00245,0.1,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,975,0.00402,0.00238,1.7,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1000,0.00244,0.00171,1.4,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1025,0.00180,0.00167,1.1,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1050,0.00137,0.00177,0.8,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1075,-0.00274,0.00163,1.7,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1100,-0.00045,0.00151,0.3,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1125,-0.00104,0.00151,0.7,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1150,-0.00370,0.00180,2.1,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1175,0.00018,0.00163,0.1,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1200,-0.00378,0.00190,2.0,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1225,-0.00292,0.00314,0.9,144,two-sided
+Ea_E38,R19 Ga terrace incorporation,1230,-0.00218,0.00321,0.7,144,two-sided
+beta_E38,R19 Ga terrace incorporation,900,0.00735,0.01513,0.5,144,two-sided
+beta_E38,R19 Ga terrace incorporation,925,0.00950,0.01542,0.6,144,two-sided
+beta_E38,R19 Ga terrace incorporation,950,0.00217,0.01678,0.1,144,two-sided
+beta_E38,R19 Ga terrace incorporation,975,-0.02770,0.01637,1.7,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1000,-0.01686,0.01182,1.4,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1025,-0.01248,0.01161,1.1,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1050,-0.00951,0.01231,0.8,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1075,0.01911,0.01136,1.7,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1100,0.00314,0.01060,0.3,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1125,0.00727,0.01058,0.7,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1150,0.02610,0.01265,2.1,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1175,-0.00125,0.01155,0.1,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1200,0.02679,0.01349,2.0,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1225,0.02075,0.02230,0.9,144,two-sided
+beta_E38,R19 Ga terrace incorporation,1230,0.01548,0.02284,0.7,144,two-sided
+A_E41,R20 Ga step incorporation,900,-0.00012,0.00225,0.1,144,two-sided
+A_E41,R20 Ga step incorporation,925,-0.00030,0.00213,0.1,144,two-sided
+A_E41,R20 Ga step incorporation,950,-0.00367,0.00264,1.4,144,two-sided
+A_E41,R20 Ga step incorporation,975,0.00136,0.00280,0.5,144,two-sided
+A_E41,R20 Ga step incorporation,1000,0.00406,0.00305,1.3,144,two-sided
+A_E41,R20 Ga step incorporation,1025,0.00366,0.00337,1.1,144,two-sided
+A_E41,R20 Ga step incorporation,1050,-0.00044,0.00340,0.1,144,two-sided
+A_E41,R20 Ga step incorporation,1075,0.00046,0.00404,0.1,144,two-sided
+A_E41,R20 Ga step incorporation,1100,0.00523,0.00407,1.3,144,two-sided
+A_E41,R20 Ga step incorporation,1125,0.00173,0.00436,0.4,144,two-sided
+A_E41,R20 Ga step incorporation,1150,0.00096,0.00400,0.2,144,two-sided
+A_E41,R20 Ga step incorporation,1175,-0.01295,0.00421,3.1,144,two-sided
+A_E41,R20 Ga step incorporation,1200,-0.00072,0.00450,0.2,144,two-sided
+A_E41,R20 Ga step incorporation,1225,-0.00200,0.00438,0.5,144,two-sided
+A_E41,R20 Ga step incorporation,1230,-0.00289,0.00420,0.7,144,two-sided
+Ea_E41,R20 Ga step incorporation,900,0.00012,0.00225,0.1,144,two-sided
+Ea_E41,R20 Ga step incorporation,925,0.00030,0.00213,0.1,144,two-sided
+Ea_E41,R20 Ga step incorporation,950,0.00367,0.00264,1.4,144,two-sided
+Ea_E41,R20 Ga step incorporation,975,-0.00136,0.00280,0.5,144,two-sided
+Ea_E41,R20 Ga step incorporation,1000,-0.00406,0.00305,1.3,144,two-sided
+Ea_E41,R20 Ga step incorporation,1025,-0.00366,0.00337,1.1,144,two-sided
+Ea_E41,R20 Ga step incorporation,1050,0.00044,0.00340,0.1,144,two-sided
+Ea_E41,R20 Ga step incorporation,1075,-0.00046,0.00404,0.1,144,two-sided
+Ea_E41,R20 Ga step incorporation,1100,-0.00523,0.00407,1.3,144,two-sided
+Ea_E41,R20 Ga step incorporation,1125,-0.00173,0.00436,0.4,144,two-sided
+Ea_E41,R20 Ga step incorporation,1150,-0.00096,0.00400,0.2,144,two-sided
+Ea_E41,R20 Ga step incorporation,1175,0.01295,0.00421,3.1,144,two-sided
+Ea_E41,R20 Ga step incorporation,1200,0.00072,0.00450,0.2,144,two-sided
+Ea_E41,R20 Ga step incorporation,1225,0.00200,0.00438,0.5,144,two-sided
+Ea_E41,R20 Ga step incorporation,1230,0.00289,0.00420,0.7,144,two-sided
+beta_E41,R20 Ga step incorporation,900,-0.00084,0.01528,0.1,144,two-sided
+beta_E41,R20 Ga step incorporation,925,-0.00207,0.01452,0.1,144,two-sided
+beta_E41,R20 Ga step incorporation,950,-0.02517,0.01810,1.4,144,two-sided
+beta_E41,R20 Ga step incorporation,975,0.00934,0.01928,0.5,144,two-sided
+beta_E41,R20 Ga step incorporation,1000,0.02804,0.02110,1.3,144,two-sided
+beta_E41,R20 Ga step incorporation,1025,0.02537,0.02336,1.1,144,two-sided
+beta_E41,R20 Ga step incorporation,1050,-0.00307,0.02362,0.1,144,two-sided
+beta_E41,R20 Ga step incorporation,1075,0.00323,0.02819,0.1,144,two-sided
+beta_E41,R20 Ga step incorporation,1100,0.03661,0.02848,1.3,144,two-sided
+beta_E41,R20 Ga step incorporation,1125,0.01217,0.03063,0.4,144,two-sided
+beta_E41,R20 Ga step incorporation,1150,0.00679,0.02817,0.2,144,two-sided
+beta_E41,R20 Ga step incorporation,1175,-0.09157,0.02979,3.1,144,two-sided
+beta_E41,R20 Ga step incorporation,1200,-0.00511,0.03190,0.2,144,two-sided
+beta_E41,R20 Ga step incorporation,1225,-0.01421,0.03115,0.5,144,two-sided
+beta_E41,R20 Ga step incorporation,1230,-0.02055,0.02991,0.7,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,900,0.23938,0.00250,95.7,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,925,0.22094,0.00260,84.9,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,950,0.20636,0.00281,73.5,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,975,0.19195,0.00304,63.2,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1000,0.18095,0.00283,63.9,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1025,0.16351,0.00328,49.9,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1050,0.16145,0.00389,41.6,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1075,0.15349,0.00373,41.1,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1100,0.14618,0.00394,37.1,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1125,0.14537,0.00420,34.6,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1150,0.15650,0.00471,33.2,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1175,0.19569,0.00439,44.6,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1200,0.28116,0.00476,59.1,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1225,0.49605,0.00449,110.6,144,two-sided
+S0_A_terrace,R1 AsH terrace sticking,1230,0.58918,0.00439,134.1,144,two-sided
+S0_A_step,R2 AsH step sticking,900,0.39680,0.00227,174.5,144,two-sided
+S0_A_step,R2 AsH step sticking,925,0.38272,0.00255,150.1,144,two-sided
+S0_A_step,R2 AsH step sticking,950,0.36938,0.00281,131.5,144,two-sided
+S0_A_step,R2 AsH step sticking,975,0.36676,0.00254,144.2,144,two-sided
+S0_A_step,R2 AsH step sticking,1000,0.36114,0.00282,128.2,144,two-sided
+S0_A_step,R2 AsH step sticking,1025,0.36170,0.00321,112.5,144,two-sided
+S0_A_step,R2 AsH step sticking,1050,0.36623,0.00319,114.7,144,two-sided
+S0_A_step,R2 AsH step sticking,1075,0.38467,0.00402,95.8,144,two-sided
+S0_A_step,R2 AsH step sticking,1100,0.41919,0.00403,103.9,144,two-sided
+S0_A_step,R2 AsH step sticking,1125,0.46792,0.00399,117.3,144,two-sided
+S0_A_step,R2 AsH step sticking,1150,0.54869,0.00459,119.6,144,two-sided
+S0_A_step,R2 AsH step sticking,1175,0.65056,0.00424,153.5,144,two-sided
+S0_A_step,R2 AsH step sticking,1200,0.78554,0.00419,187.5,144,two-sided
+S0_A_step,R2 AsH step sticking,1225,0.99553,0.00396,251.3,144,two-sided
+S0_A_step,R2 AsH step sticking,1230,1.06403,0.00446,238.6,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,900,0.31835,0.00250,127.4,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,925,0.33668,0.00254,132.6,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,950,0.35352,0.00271,130.5,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,975,0.37382,0.00315,118.6,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1000,0.39542,0.00319,124.0,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1025,0.41609,0.00316,131.6,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1050,0.43872,0.00374,117.2,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1075,0.46833,0.00369,126.9,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1100,0.49938,0.00380,131.5,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1125,0.52007,0.00373,139.5,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1150,0.55539,0.00435,127.7,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1175,0.59638,0.00466,128.1,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1200,0.63421,0.00476,133.3,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1225,0.67702,0.00407,166.3,144,two-sided
+S0_M_terrace,R6 MMGa terrace sticking,1230,0.68754,0.00397,173.2,144,two-sided
+S0_M_step,R7 MMGa step sticking,900,0.08672,0.00399,21.7,144,one-sided
+S0_M_step,R7 MMGa step sticking,925,0.08927,0.00503,17.8,144,one-sided
+S0_M_step,R7 MMGa step sticking,950,0.09512,0.00517,18.4,144,one-sided
+S0_M_step,R7 MMGa step sticking,975,0.09353,0.00594,15.8,144,one-sided
+S0_M_step,R7 MMGa step sticking,1000,0.10417,0.00576,18.1,144,one-sided
+S0_M_step,R7 MMGa step sticking,1025,0.10017,0.00636,15.7,144,one-sided
+S0_M_step,R7 MMGa step sticking,1050,0.10427,0.00755,13.8,144,one-sided
+S0_M_step,R7 MMGa step sticking,1075,0.10697,0.00761,14.0,144,one-sided
+S0_M_step,R7 MMGa step sticking,1100,0.12253,0.00775,15.8,144,one-sided
+S0_M_step,R7 MMGa step sticking,1125,0.12923,0.00843,15.3,144,one-sided
+S0_M_step,R7 MMGa step sticking,1150,0.13550,0.00871,15.6,144,one-sided
+S0_M_step,R7 MMGa step sticking,1175,0.16410,0.00809,20.3,144,one-sided
+S0_M_step,R7 MMGa step sticking,1200,0.24470,0.00804,30.4,144,one-sided
+S0_M_step,R7 MMGa step sticking,1225,0.51051,0.00736,69.4,144,one-sided
+S0_M_step,R7 MMGa step sticking,1230,0.66141,0.00698,94.8,144,one-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",900,-0.63617,0.00341,186.8,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",925,-0.60366,0.00358,168.7,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",950,-0.57574,0.00413,139.4,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",975,-0.55871,0.00390,143.2,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1000,-0.54209,0.00408,132.9,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1025,-0.52521,0.00416,126.3,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1050,-0.52768,0.00477,110.7,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1075,-0.53816,0.00554,97.1,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1100,-0.56537,0.00558,101.3,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1125,-0.61329,0.00543,112.9,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1150,-0.70520,0.00657,107.4,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1175,-0.84626,0.00633,133.7,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1200,-1.06670,0.00656,162.7,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1225,-1.49158,0.00632,235.9,144,two-sided
+Ea_chem_As,"AsH chemisorption barrier (R1, R2)",1230,-1.65321,0.00629,262.7,144,two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",900,-0.40507,0.00469,86.4,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",925,-0.42595,0.00580,73.4,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",950,-0.44863,0.00594,75.6,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",975,-0.46735,0.00653,71.6,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1000,-0.49959,0.00633,78.9,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1025,-0.51626,0.00713,72.4,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1050,-0.54299,0.00800,67.8,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1075,-0.57530,0.00854,67.3,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1100,-0.62192,0.00838,74.2,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1125,-0.64930,0.00944,68.8,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1150,-0.69089,0.00997,69.3,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1175,-0.76048,0.00965,78.8,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1200,-0.87891,0.00907,96.8,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1225,-1.18753,0.00860,138.1,144,one-sided+two-sided
+Ea_chem_M,"MMGa chemisorption barrier (R6, R7)",1230,-1.34895,0.00845,159.6,144,one-sided+two-sided

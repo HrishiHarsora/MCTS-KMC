@@ -1,0 +1,20 @@
+# HT LADDER about the LT+MT fit (node 52). Read by run_kmc.py; run_ladder.sh passes each set's parameter file
+# (ladder_params/, all 54 values), the temperature and its seed base from ladder_tasklist.txt, and --nrep 100.
+# Same settings as the LT+MT+HT DRC (the 50-200 A window, stop at 200 A, stall rule, 10 M-event cap).
+
+[run]
+temperatures = [900, 925, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1200, 1225, 1230]
+output_csv   = "results/drc.csv"           # run_drc.sh sets one per element
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 2.0
+stall_min_events         = 500000
+stall_rel_tol            = 0.005
+stall_abs_tol_A          = 0.01
+max_iterations           = 10000000
+reward_checkpoint_events = 20000
+n_replicates             = 100              # fixed: every set pairs with the root film by film (CRN)
+seed_base                = 87250000         # ladder_tasklist.txt passes each temperature its own base (CRN across sets)
+n_workers                = 48

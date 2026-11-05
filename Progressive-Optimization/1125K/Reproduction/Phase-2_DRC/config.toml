@@ -1,0 +1,25 @@
+# 1125 K PHASE 2 DRC about the inflation root (lambda 1.0). Read by run_kmc.py; run_drc.sh passes
+# each arm's parameter file (drc_params/, all 54 values), the temperature and the seed base from
+# drc_tasklist.txt, and --nrep 144.
+#
+# THE GROWTH RATE: the mean film height's rate through 50-200 A; a trajectory stops at the first
+# checkpoint at or above 200 A. A film that stops growing ends by the stall rule and has no rate.
+# At the root every film grew through the window (144/144, 1.032 um/min, CV 0.73 %, median
+# 1.94 M events to 200 A); the cap leaves 5x headroom for the slowest arm.
+
+[run]
+temperatures = [1125]
+output_csv   = "results/drc.csv"           # run_drc.sh sets one per arm
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 2.0
+stall_min_events         = 500000
+stall_rel_tol            = 0.005
+stall_abs_tol_A          = 0.01
+max_iterations           = 10000000
+reward_checkpoint_events = 20000
+n_replicates             = 144              # fixed: every arm pairs with the baseline replicate by replicate
+seed_base                = 41250000         # drc_tasklist.txt passes the same base to every arm (CRN)
+n_workers                = 48

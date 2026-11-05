@@ -1,0 +1,29 @@
+{
+  "description": "DRC about LT+MT MCTS node 34 (root_node34.json): every temperature inside 10 % of Lin except 900 K (+16.7 %). Same design as the LT+MT DRC so the two compare directly: all 20 directions (16 reactions + 4 sticking coefficients), +-0.3 e-folds, 144 CRN-paired replicates, 900-1150 K. Purpose: measure, at the point we would move from, which parameter lowers 900 K without lowering 925-1150 K (WHY.txt).",
+  "root_parameters": "root_node34.json",
+  "root_md5": "38a4113616ae12a8339be23bcae35ffe",
+  "delta_efolds": 0.3,
+  "temperatures": [
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1025,
+    1050,
+    1075,
+    1100,
+    1125,
+    1150
+  ],
+  "replicates": 144,
+  "seed_base": 84340000,
+  "priority": [
+    "stick_M_step",
+    "E32",
+    "stick_M_terr",
+    "stick_A_step",
+    "stick_A_terr"
+  ],
+  "out_dir": "drc_params"
+}

@@ -1,0 +1,46 @@
+{
+  "description": "DRC at the final fit: LT+MT+HT node 31 (MCTS_FAN best_params_b3_Cauto.json; x Lin at 900-1230 K 1.110 .959 .875 .897 .942 .977 1.036 1.048 1.049 1.013 .994 .992 1.035 .911 .935, RMS 6.7 %). Same design as every earlier DRC: 20 directions, +-0.3 e-folds, 144 CRN films, all 15 temperatures. For the paper's lever heat map (Fig 10); it feeds no search. S0_M_step sits at its bound 1.0 at node 31, so stick_M_step cannot step up: the builder takes the other 19 directions and add_one_sided.py adds stick_M_step's minus arm alone (one-sided, WHY.txt).",
+  "root_parameters": "root_node31.json",
+  "root_md5": "5efe787479c7deb3ce356b80db34d9b3",
+  "delta_efolds": 0.3,
+  "temperatures": [
+    900,
+    925,
+    950,
+    975,
+    1000,
+    1025,
+    1050,
+    1075,
+    1100,
+    1125,
+    1150,
+    1175,
+    1200,
+    1225,
+    1230
+  ],
+  "replicates": 144,
+  "seed_base": 98250000,
+  "priority": [
+    "E32",
+    "stick_M_terr",
+    "stick_A_step",
+    "stick_A_terr"
+  ],
+  "out_dir": "drc_params",
+  "extra_directions": [
+    [
+      "stick_A_terr",
+      "S0_A_terrace"
+    ],
+    [
+      "stick_A_step",
+      "S0_A_step"
+    ],
+    [
+      "stick_M_terr",
+      "S0_M_terrace"
+    ]
+  ]
+}

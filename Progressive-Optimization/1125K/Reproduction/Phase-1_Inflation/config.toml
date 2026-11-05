@@ -1,0 +1,30 @@
+# 1125 K INFLATION LADDER. Read by run_kmc.py; run_inflation.sh passes each lambda's parameter
+# file (lambda_params/, all 54 values) with --params.
+#
+# THE GROWTH RATE: the mean film height's rate through 50-200 A; a trajectory stops at the
+# first checkpoint at or above 200 A (well below the 231.8 A lattice top). A film that stops
+# growing ends by the stall rule and has no rate ("did not grow through the window").
+# The ladder's job is to find the smallest lambda at which EVERY film grows through the window.
+
+[run]
+temperatures = [1125]
+output_csv   = "results/infl.csv"          # run_inflation.sh sets one per lambda
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 2.0
+stall_min_events         = 500000
+stall_rel_tol            = 0.005
+stall_abs_tol_A          = 0.01
+max_iterations           = 10000000         # backstop; Stage-1-like films need ~1.4 M
+reward_checkpoint_events = 20000
+# REPLICATES, sized per lambda by its own scatter: waves of 144 (3 full waves on 48 cores) until
+# the SEM of the window growth rate is <= 1 %, at most 576. Only films that grew through the window
+# have a rate; a lambda whose films do not grow climbs to the cap (cheap: the stall rule ends them).
+n_replicates             = 144
+n_rep_wave               = 144
+target_sem_pct           = 1.0
+n_rep_max                = 576
+seed_base                = 31250000         # the same for every lambda: common random numbers
+n_workers                = 48

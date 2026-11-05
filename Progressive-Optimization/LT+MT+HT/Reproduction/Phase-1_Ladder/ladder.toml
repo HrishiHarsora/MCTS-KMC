@@ -1,0 +1,21 @@
+# THE HT LADDER about the LT+MT fit (node 52). Every lever of a family moves lambda e-folds of its rate
+# constant AT 1225 K (a barrier: value = root + sign x lambda x 1225 K); +1 raises the parameter.
+# The directions are the height sensitivity's at 1225 K (../Phase-1_Sensitivity): R10 slower dominates
+# (S_h -63.8 A per e-fold, its minus arm grew 114 A by 1 M events); AsH / MMGa sticking up help
+# (Ea_chem_As +21.1, Ea_chem_M +26.2). Each lever is one the LT+MT search already moves (additive
+# barriers, as there). Every set runs at all 15 temperatures, the same seeds per temperature (CRN).
+
+[meta]
+root          = "root_fit_LTMT.json"
+temperature_K = 1225
+replicates    = 100
+seed_base     = 87250000
+temperatures  = [900, 925, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1200, 1225, 1230]
+
+[family.R10]              # R10 alone: the film-gallium loss slowed, nothing else
+sign    = { Ea_E32 = 1 }
+lambdas = [0.1, 0.2, 0.3, 0.45, 0.6, 0.9]
+
+[family.R10_stick]        # the 1125 K Phase 1 recipe: R10 slower AND both precursors stick more
+sign    = { Ea_E32 = 1, Ea_chem_M = -1, Ea_chem_As = -1 }
+lambdas = [0.1, 0.2, 0.3, 0.45]

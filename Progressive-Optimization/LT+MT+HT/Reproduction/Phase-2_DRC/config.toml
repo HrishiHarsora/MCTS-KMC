@@ -1,0 +1,21 @@
+# LT+MT+HT DRC at the ladder's R10 0.45 set (root_R10_045.json = LADDER ladder_params/R10_0.45.json). Read by
+# run_kmc.py; run_drc.sh passes each arm's parameter file (drc_params/, all 54 values), the temperature and its
+# seed base from drc_tasklist.txt, and --nrep 144. Same settings as the node-52 LT+MT+HT DRC except the seed base.
+# At this root every film grew through 200 A at all 15 temperatures in the ladder (100 films each).
+
+[run]
+temperatures = [900, 925, 950, 975, 1000, 1025, 1050, 1075, 1100, 1125, 1150, 1175, 1200, 1225, 1230]
+output_csv   = "results/drc.csv"           # run_drc.sh sets one per element
+
+[kmc]
+lattice_file             = "Lattice_10nm_h232.xyz"   # the job passes the codebase's copy: --lattice $KMC_CODE/kmc/lattice/...
+gr_window_A              = [50.0, 200.0]
+stall_idle_factor        = 2.0
+stall_min_events         = 500000
+stall_rel_tol            = 0.005
+stall_abs_tol_A          = 0.01
+max_iterations           = 10000000
+reward_checkpoint_events = 20000
+n_replicates             = 144              # fixed: every arm pairs with the baseline replicate by replicate
+seed_base                = 88250000         # drc_tasklist.txt passes each temperature its own base (CRN across arms)
+n_workers                = 48

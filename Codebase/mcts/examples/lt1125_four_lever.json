@@ -1,0 +1,54 @@
+{
+  "description": "LT+1125, four levers. Root is the Stage-1 (1125 K) fitted set; four directions the LT+1125 DRC resolved most strongly are searched against Lin 1977 at six temperatures.",
+  "root_parameters": "params/stage01_1125K_winner.json",
+  "root_md5": "3dcb30fe4979404e15641b66e2bfee27",
+  "drc_table": "drc/drc_LT1125_v2.csv",
+  "target_curve_csv": "curves/lin1977_gr_vs_T.csv",
+  "reference_temperature_K": 1125,
+  "levers": [
+    "Ea_chem_M",
+    "Ea_chem_As",
+    "Ea_E32",
+    "Ea_E33"
+  ],
+  "barrier_span_efolds": 8.0,
+  "lever_bounds": {},
+  "lever_selection": {
+    "min_snr": 3.0
+  },
+  "objective": {
+    "h_min_A": 200.0,
+    "error_threshold": 0.1
+  },
+  "search": {
+    "max_experiments": 60,
+    "max_depth": 20,
+    "max_children": 5,
+    "max_step_efolds": 2,
+    "C_ucb": "auto",
+    "tau": "auto",
+    "planner_map": "learned",
+    "expand_bias": 0.7
+  },
+  "kmc": {
+    "lattice": "Lattice_10nm_h232.xyz",
+    "max_events": 10000000,
+    "checkpoint_events": 20000,
+    "workers": 48,
+    "seed_base": 90800000,
+    "n_rep_total": 96,
+    "n_rep_max": 240,
+    "n_rep_wave": 48,
+    "sem_target_pct": 2,
+    "window_A": [
+      50.0,
+      200.0
+    ],
+    "stall": {
+      "idle_factor": 2.0,
+      "min_events": 500000,
+      "rel_tol": 0.005,
+      "abs_tol_A": 0.01
+    }
+  }
+}
